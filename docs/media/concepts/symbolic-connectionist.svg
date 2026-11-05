@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">One sentence as rules and as a network, with ACT-R between</title>
+<desc id="d">Schematic of the sentence the cat sat as a parse tree on the left and a network of graded activations on the right, with ACT-R in the middle as a hybrid of symbolic rules and subsymbolic activation.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<text x="240.0" y="70.0" font-size="44" fill="#6fd3ff" text-anchor="middle" font-weight="700">Symbolic</text>
+<text x="240.0" y="120.0" font-size="26" fill="#a3aec6" text-anchor="middle">rules over discrete symbols</text>
+<line x1="240.0" y1="190.0" x2="130.0" y2="310.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="240.0" y1="190.0" x2="360.0" y2="310.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="130.0" y1="310.0" x2="60.0" y2="450.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="130.0" y1="310.0" x2="200.0" y2="450.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="360.0" y1="310.0" x2="360.0" y2="450.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<rect x="190" y="158" width="100" height="64" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="240.0" y="201.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">S</text>
+<rect x="80" y="278" width="100" height="64" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="130.0" y="321.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">NP</text>
+<rect x="310" y="278" width="100" height="64" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="360.0" y="321.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">VP</text>
+<rect x="10" y="418" width="100" height="64" rx="12" fill="#143026" stroke="#6fd3ff" stroke-width="3"/>
+<text x="60.0" y="461.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">the</text>
+<rect x="150" y="418" width="100" height="64" rx="12" fill="#143026" stroke="#6fd3ff" stroke-width="3"/>
+<text x="200.0" y="461.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">cat</text>
+<rect x="310" y="418" width="100" height="64" rx="12" fill="#143026" stroke="#6fd3ff" stroke-width="3"/>
+<text x="360.0" y="461.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">sat</text>
+<text x="1040.0" y="70.0" font-size="44" fill="#b48cff" text-anchor="middle" font-weight="700">Connectionist</text>
+<text x="1040.0" y="120.0" font-size="26" fill="#a3aec6" text-anchor="middle">learned distributed vectors</text>
+<line x1="860.0" y1="210.0" x2="1040.0" y2="170.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="210.0" x2="1040.0" y2="250.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="210.0" x2="1040.0" y2="330.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="210.0" x2="1040.0" y2="410.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="210.0" x2="1040.0" y2="490.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="330.0" x2="1040.0" y2="170.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="330.0" x2="1040.0" y2="250.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="330.0" x2="1040.0" y2="330.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="330.0" x2="1040.0" y2="410.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="330.0" x2="1040.0" y2="490.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="450.0" x2="1040.0" y2="170.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="450.0" x2="1040.0" y2="250.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="450.0" x2="1040.0" y2="330.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="450.0" x2="1040.0" y2="410.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="860.0" y1="450.0" x2="1040.0" y2="490.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="170.0" x2="1210.0" y2="270.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="170.0" x2="1210.0" y2="390.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="250.0" x2="1210.0" y2="270.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="250.0" x2="1210.0" y2="390.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="330.0" x2="1210.0" y2="270.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="330.0" x2="1210.0" y2="390.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="410.0" x2="1210.0" y2="270.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="410.0" x2="1210.0" y2="390.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="490.0" x2="1210.0" y2="270.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="1040.0" y1="490.0" x2="1210.0" y2="390.0" stroke="#a3aec6" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="860.0" cy="210.0" r="28" fill="#2a2148" stroke="#b48cff" stroke-width="4"/>
+<text x="822.0" y="219.0" font-size="30" fill="#e7ecf5" text-anchor="end" font-weight="700">the</text>
+<circle cx="860.0" cy="330.0" r="28" fill="#2a2148" stroke="#b48cff" stroke-width="4"/>
+<text x="822.0" y="339.0" font-size="30" fill="#e7ecf5" text-anchor="end" font-weight="700">cat</text>
+<circle cx="860.0" cy="450.0" r="28" fill="#2a2148" stroke="#b48cff" stroke-width="4"/>
+<text x="822.0" y="459.0" font-size="30" fill="#e7ecf5" text-anchor="end" font-weight="700">sat</text>
+<circle cx="1040.0" cy="170.0" r="26" fill="rgb(210,157,240)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1040.0" cy="250.0" r="26" fill="rgb(70,52,100)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1040.0" cy="330.0" r="26" fill="rgb(150,112,180)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1040.0" cy="410.0" r="26" fill="rgb(100,75,130)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1040.0" cy="490.0" r="26" fill="rgb(180,135,210)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1210.0" cy="270.0" r="26" fill="rgb(130,97,160)" stroke="#b48cff" stroke-width="4"/>
+<circle cx="1210.0" cy="390.0" r="26" fill="rgb(200,150,230)" stroke="#b48cff" stroke-width="4"/>
+<text x="615.0" y="270.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">The same</text>
+<text x="615.0" y="313.2" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">sentence,</text>
+<text x="615.0" y="356.4" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">in both.</text>
+<rect x="370" y="540" width="540" height="190" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="6"/>
+<text x="640.0" y="600.0" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">ACT-R: a hybrid</text>
+<text x="640.0" y="665.0" font-size="28" fill="#e7ecf5" text-anchor="middle">symbolic rules, subsymbolic activation</text>
+<line x1="240.0" y1="495.0" x2="354.5" y2="580.0" stroke="#6fd3ff" stroke-width="6" stroke-linecap="round"/>
+<polygon points="368.0,590.0 344.5,585.3 356.7,568.8" fill="#6fd3ff"/>
+<line x1="1040.0" y1="505.0" x2="926.0" y2="580.7" stroke="#b48cff" stroke-width="6" stroke-linecap="round"/>
+<polygon points="912.0,590.0 924.4,569.5 935.7,586.5" fill="#b48cff"/>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic. Fodor and Pylyshyn 1988; Rumelhart and McClelland 1986; Anderson et al. 2004.</text>
+</svg>

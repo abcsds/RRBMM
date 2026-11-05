@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Attention as yours, theirs and ours</title>
+<desc id="d">Three schematic bars showing attention spent as a personal budget, as a commodity sold to others, and as a resource shared in a community. Segment widths are not data.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<text x="70.0" y="95.0" font-size="46" fill="#e7ecf5" text-anchor="start" font-weight="700">Yours</text>
+<text x="250.0" y="95.0" font-size="32" fill="#6fd3ff" text-anchor="start" font-weight="700">personal attention management</text>
+<rect x="70" y="120" width="372" height="120" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="256.0" y="192.6" font-size="36" fill="#e7ecf5" text-anchor="middle">work</text>
+<rect x="450" y="120" width="372" height="120" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="636.0" y="192.6" font-size="36" fill="#e7ecf5" text-anchor="middle">rest</text>
+<rect x="830" y="120" width="372" height="120" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="1016.0" y="192.6" font-size="36" fill="#e7ecf5" text-anchor="middle">wandering</text>
+<text x="70.0" y="330.0" font-size="46" fill="#e7ecf5" text-anchor="start" font-weight="700">Theirs</text>
+<text x="250.0" y="330.0" font-size="32" fill="#ffcf6f" text-anchor="start" font-weight="700">a commodity; cognitive autonomy</text>
+<rect x="70" y="355" width="372" height="120" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="256.0" y="427.6" font-size="36" fill="#e7ecf5" text-anchor="middle">feeds</text>
+<rect x="450" y="355" width="372" height="120" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="636.0" y="427.6" font-size="36" fill="#e7ecf5" text-anchor="middle">ads</text>
+<rect x="830" y="355" width="372" height="120" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="1016.0" y="427.6" font-size="36" fill="#e7ecf5" text-anchor="middle">alerts</text>
+<text x="70.0" y="565.0" font-size="46" fill="#e7ecf5" text-anchor="start" font-weight="700">Ours</text>
+<text x="250.0" y="565.0" font-size="32" fill="#7ee0a8" text-anchor="start" font-weight="700">a social resource</text>
+<rect x="70" y="590" width="372" height="120" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="256.0" y="662.6" font-size="36" fill="#e7ecf5" text-anchor="middle">listening</text>
+<rect x="450" y="590" width="372" height="120" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="636.0" y="662.6" font-size="36" fill="#e7ecf5" text-anchor="middle">helping</text>
+<rect x="830" y="590" width="372" height="120" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="1016.0" y="662.6" font-size="36" fill="#e7ecf5" text-anchor="middle">interrupting</text>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">schematic, widths are not data</text>
+</svg>

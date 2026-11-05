@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Popper&#x27;s three worlds and Plato&#x27;s realm</title>
+<desc id="d">Diagram of World 1 physical, World 2 mental and World 3 products of minds linked in a row, a dashed ghost of Plato&#x27;s realm, and a border beyond which lie culture and anthropology.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<circle cx="165.0" cy="430.0" r="125" fill="#143026" stroke="#7ee0a8" stroke-width="6"/>
+<text x="165.0" y="422.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">World 1</text>
+<text x="165.0" y="468.0" font-size="26" fill="#e7ecf5" text-anchor="middle">physical</text>
+<circle cx="455.0" cy="430.0" r="125" fill="#2a2148" stroke="#b48cff" stroke-width="6"/>
+<text x="455.0" y="422.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">World 2</text>
+<text x="455.0" y="468.0" font-size="26" fill="#e7ecf5" text-anchor="middle">mental</text>
+<circle cx="745.0" cy="430.0" r="125" fill="#2a2412" stroke="#ffcf6f" stroke-width="6"/>
+<text x="745.0" y="395.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">World 3</text>
+<text x="745.0" y="432.0" font-size="26" fill="#e7ecf5" text-anchor="middle">language,</text>
+<text x="745.0" y="463.2" font-size="26" fill="#e7ecf5" text-anchor="middle">theories,</text>
+<text x="745.0" y="494.4" font-size="26" fill="#e7ecf5" text-anchor="middle">mathematics</text>
+<line x1="292.0" y1="415.0" x2="312.6" y2="415.0" stroke="#e7ecf5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="328.0,415.0 308.1,424.4 308.1,405.6" fill="#e7ecf5"/>
+<line x1="328.0" y1="450.0" x2="307.4" y2="450.0" stroke="#e7ecf5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="292.0,450.0 311.9,440.6 311.9,459.4" fill="#e7ecf5"/>
+<line x1="582.0" y1="415.0" x2="602.6" y2="415.0" stroke="#e7ecf5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="618.0,415.0 598.1,424.4 598.1,405.6" fill="#e7ecf5"/>
+<line x1="618.0" y1="450.0" x2="597.4" y2="450.0" stroke="#e7ecf5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="582.0,450.0 601.9,440.6 601.9,459.4" fill="#e7ecf5"/>
+<circle cx="745.0" cy="125.0" r="95" fill="#0b1020" stroke="#a3aec6" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="745.0" y="118.0" font-size="30" fill="#a3aec6" text-anchor="middle" font-weight="700">Plato&#x27;s</text>
+<text x="745.0" y="154.0" font-size="30" fill="#a3aec6" text-anchor="middle" font-weight="700">realm</text>
+<path d="M745 300 L745 226" fill="none" stroke="#ffcf6f" stroke-width="5" stroke-dasharray="10 8" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="745.0,222.0 753.5,240.1 736.5,240.1" fill="#ffcf6f"/>
+<text x="290.0" y="110.0" font-size="34" fill="#e7ecf5" text-anchor="middle">It feels like Plato&#x27;s realm.</text>
+<text x="290.0" y="160.0" font-size="34" fill="#ffcf6f" text-anchor="middle" font-weight="700">It behaves like World 3.</text>
+<text x="290.0" y="215.0" font-size="26" fill="#a3aec6" text-anchor="middle">made by minds, real for all of us</text>
+<line x1="930.0" y1="40.0" x2="930.0" y2="720.0" stroke="#e7ecf5" stroke-width="5" stroke-dasharray="14 12" stroke-linecap="round"/>
+<text x="1090.0" y="400.0" font-size="38" fill="#a3aec6" text-anchor="middle">Culture,</text>
+<text x="1090.0" y="445.6" font-size="38" fill="#a3aec6" text-anchor="middle">anthro-</text>
+<text x="1090.0" y="491.2" font-size="38" fill="#a3aec6" text-anchor="middle">pology</text>
+<text x="1090.0" y="330.0" font-size="26" fill="#e7ecf5" text-anchor="middle" font-weight="700">we stop here</text>
+<line x1="950.0" y1="620.0" x2="1207.4" y2="620.0" stroke="#a3aec6" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<polygon points="1220.0,620.0 1203.7,627.7 1203.7,612.3" fill="#a3aec6"/>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic. Popper 1972; Linnebo 2023.</text>
+</svg>

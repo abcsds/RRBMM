@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Four regulation words on one loop</title>
+<desc id="d">Schematic loop of notice, name, choose and shift, with metacognition, dissonance, emotional regulation and flexibility each marked on one step, and a note that the classic dissonance design failed to replicate.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<path d="M745.5 176.9 L749.1 179.0 L752.7 181.1 L756.3 183.3 L759.8 185.5 L763.3 187.8 L766.8 190.2 L770.2 192.6 L773.5 195.2 L776.8 197.7 L780.1 200.4 L783.3 203.1 L786.4 205.8 L789.5 208.6 L792.6 211.5 L795.6 214.4 L798.5 217.4 L801.4 220.5 L804.2 223.6 L806.9 226.7 L809.6 229.9 L812.3 233.2 L814.8 236.5 L817.4 239.8 L819.8 243.2 L822.2 246.7 L824.5 250.2 L826.7 253.7 L828.9 257.3 L831.0 260.9" fill="none" stroke="#e7ecf5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="833.1,264.5 816.7,253.1 831.5,244.6" fill="#e7ecf5"/>
+<path d="M833.1 475.5 L831.0 479.1 L828.9 482.7 L826.7 486.3 L824.5 489.8 L822.2 493.3 L819.8 496.8 L817.4 500.2 L814.8 503.5 L812.3 506.8 L809.6 510.1 L806.9 513.3 L804.2 516.4 L801.4 519.5 L798.5 522.6 L795.6 525.6 L792.6 528.5 L789.5 531.4 L786.4 534.2 L783.3 536.9 L780.1 539.6 L776.8 542.3 L773.5 544.8 L770.2 547.4 L766.8 549.8 L763.3 552.2 L759.8 554.5 L756.3 556.7 L752.7 558.9 L749.1 561.0" fill="none" stroke="#e7ecf5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="745.5,563.1 756.9,546.7 765.4,561.5" fill="#e7ecf5"/>
+<path d="M534.5 563.1 L530.9 561.0 L527.3 558.9 L523.7 556.7 L520.2 554.5 L516.7 552.2 L513.2 549.8 L509.8 547.4 L506.5 544.8 L503.2 542.3 L499.9 539.6 L496.7 536.9 L493.6 534.2 L490.5 531.4 L487.4 528.5 L484.4 525.6 L481.5 522.6 L478.6 519.5 L475.8 516.4 L473.1 513.3 L470.4 510.1 L467.7 506.8 L465.2 503.5 L462.6 500.2 L460.2 496.8 L457.8 493.3 L455.5 489.8 L453.3 486.3 L451.1 482.7 L449.0 479.1" fill="none" stroke="#e7ecf5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="446.9,475.5 463.3,486.9 448.5,495.4" fill="#e7ecf5"/>
+<path d="M446.9 264.5 L449.0 260.9 L451.1 257.3 L453.3 253.7 L455.5 250.2 L457.8 246.7 L460.2 243.2 L462.6 239.8 L465.2 236.5 L467.7 233.2 L470.4 229.9 L473.1 226.7 L475.8 223.6 L478.6 220.5 L481.5 217.4 L484.4 214.4 L487.4 211.5 L490.5 208.6 L493.6 205.8 L496.7 203.1 L499.9 200.4 L503.2 197.7 L506.5 195.2 L509.8 192.6 L513.2 190.2 L516.7 187.8 L520.2 185.5 L523.7 183.3 L527.3 181.1 L530.9 179.0" fill="none" stroke="#e7ecf5" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="534.5,176.9 523.1,193.3 514.6,178.5" fill="#e7ecf5"/>
+<rect x="460.0" y="88" width="360" height="124" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="5"/>
+<text x="640.0" y="142.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Notice</text>
+<text x="640.0" y="188.0" font-size="28" fill="#6fd3ff" text-anchor="middle" font-weight="700">Metacognition</text>
+<rect x="850.0" y="308" width="360" height="124" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="5"/>
+<text x="1030.0" y="362.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Name</text>
+<text x="1030.0" y="408.0" font-size="28" fill="#ffcf6f" text-anchor="middle" font-weight="700">Dissonance*</text>
+<rect x="460.0" y="528" width="360" height="124" rx="12" fill="#161d33" stroke="#b48cff" stroke-width="5"/>
+<text x="640.0" y="582.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Choose</text>
+<text x="640.0" y="628.0" font-size="28" fill="#b48cff" text-anchor="middle" font-weight="700">Emotional regulation</text>
+<rect x="70.0" y="308" width="360" height="124" rx="12" fill="#161d33" stroke="#7ee0a8" stroke-width="5"/>
+<text x="250.0" y="362.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Shift</text>
+<text x="250.0" y="408.0" font-size="28" fill="#7ee0a8" text-anchor="middle" font-weight="700">Flexibility</text>
+<text x="640.0" y="382.0" font-size="36" fill="#a3aec6" text-anchor="middle">one loop</text>
+<text x="40.0" y="745.0" font-size="26" fill="#ffcf6f" text-anchor="start">* Its classic design failed across 39 labs, N = 4,898: Vaidis et al. 2024.</text>
+<text x="40.0" y="782.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic, the mapping is ours.</text>
+</svg>

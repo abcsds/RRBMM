@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">One stimulus, an objective measure, a subjective report and a gap</title>
+<desc id="d">Schematic of one stimulus sent to an objective measure and to a subjective report, with a jagged gap at the right that the methods do not close.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<circle cx="170.0" cy="380.0" r="120" fill="#26304d" stroke="#e7ecf5" stroke-width="5"/>
+<text x="170.0" y="368.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Same</text>
+<text x="170.0" y="408.8" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">stimulus</text>
+<line x1="285.0" y1="330.0" x2="425.6" y2="221.1" stroke="#6fd3ff" stroke-width="7" stroke-linecap="round"/>
+<polygon points="440.0,210.0 428.2,233.2 414.6,215.6" fill="#6fd3ff"/>
+<line x1="285.0" y1="430.0" x2="425.6" y2="538.9" stroke="#b48cff" stroke-width="7" stroke-dasharray="16 10" stroke-linecap="round"/>
+<polygon points="440.0,550.0 414.6,544.4 428.2,526.8" fill="#b48cff"/>
+<rect x="445" y="90" width="430" height="240" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="5"/>
+<text x="660.0" y="160.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Objective</text>
+<text x="660.0" y="215.0" font-size="32" fill="#e7ecf5" text-anchor="middle">button press,</text>
+<text x="660.0" y="253.4" font-size="32" fill="#e7ecf5" text-anchor="middle">reaction time, d′</text>
+<rect x="445" y="430" width="430" height="240" rx="12" fill="#2a2148" stroke="#b48cff" stroke-width="5"/>
+<text x="660.0" y="500.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Subjective</text>
+<text x="660.0" y="560.0" font-size="32" fill="#e7ecf5" text-anchor="middle">“I saw it”,</text>
+<text x="660.0" y="598.4" font-size="32" fill="#e7ecf5" text-anchor="middle">“I am sure”</text>
+<path d="M982.0 60.0 L938.0 100.0 L982.0 140.0 L938.0 180.0 L982.0 220.0 L938.0 260.0 L982.0 300.0 L938.0 340.0 L982.0 380.0 L938.0 420.0 L982.0 460.0 L938.0 500.0 L982.0 540.0 L938.0 580.0 L982.0 620.0 L938.0 660.0 L982.0 700.0" fill="none" stroke="#ffcf6f" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1100.0" y="340.0" font-size="130" fill="#ffcf6f" text-anchor="middle" font-weight="700">?</text>
+<text x="1100.0" y="440.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">What is it</text>
+<text x="1100.0" y="488.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">like?</text>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic. Nagel 1974; Chalmers 1995.</text>
+</svg>

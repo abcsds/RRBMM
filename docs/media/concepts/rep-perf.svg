@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">A map and a path through it</title>
+<desc id="d">Schematic pairing a map of connected places, representational intelligence, with one skilled path through the same map, performative intelligence.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="40" y="40" width="590" height="700" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="4"/>
+<text x="335.0" y="100.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Knowing that</text>
+<line x1="135.0" y1="220.0" x2="285.0" y2="150.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="285.0" y1="150.0" x2="445.0" y2="230.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="135.0" y1="220.0" x2="205.0" y2="360.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="285.0" y1="150.0" x2="365.0" y2="390.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="445.0" y1="230.0" x2="525.0" y2="350.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="205.0" y1="360.0" x2="365.0" y2="390.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="365.0" y1="390.0" x2="525.0" y2="350.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="205.0" y1="360.0" x2="145.0" y2="520.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="365.0" y1="390.0" x2="315.0" y2="560.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="525.0" y1="350.0" x2="495.0" y2="520.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="145.0" y1="520.0" x2="315.0" y2="560.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<line x1="315.0" y1="560.0" x2="495.0" y2="520.0" stroke="#6fd3ff" stroke-width="4" stroke-linecap="round"/>
+<circle cx="135.0" cy="220.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="285.0" cy="150.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="445.0" cy="230.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="205.0" cy="360.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="365.0" cy="390.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="525.0" cy="350.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="145.0" cy="520.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="315.0" cy="560.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<circle cx="495.0" cy="520.0" r="18" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4"/>
+<text x="335.0" y="640.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">Representational</text>
+<text x="335.0" y="690.0" font-size="30" fill="#a3aec6" text-anchor="middle">a map of the terrain</text>
+<rect x="650" y="40" width="590" height="700" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="4"/>
+<text x="945.0" y="100.0" font-size="42" fill="#e7ecf5" text-anchor="middle" font-weight="700">Knowing how</text>
+<line x1="735.0" y1="220.0" x2="885.0" y2="150.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="885.0" y1="150.0" x2="1045.0" y2="230.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="735.0" y1="220.0" x2="805.0" y2="360.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="885.0" y1="150.0" x2="965.0" y2="390.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="1045.0" y1="230.0" x2="1125.0" y2="350.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="805.0" y1="360.0" x2="965.0" y2="390.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="965.0" y1="390.0" x2="1125.0" y2="350.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="805.0" y1="360.0" x2="745.0" y2="520.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="965.0" y1="390.0" x2="915.0" y2="560.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="1125.0" y1="350.0" x2="1095.0" y2="520.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="745.0" y1="520.0" x2="915.0" y2="560.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<line x1="915.0" y1="560.0" x2="1095.0" y2="520.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+<circle cx="735.0" cy="220.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="885.0" cy="150.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="1045.0" cy="230.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="805.0" cy="360.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="965.0" cy="390.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="1125.0" cy="350.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="745.0" cy="520.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="915.0" cy="560.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<circle cx="1095.0" cy="520.0" r="14" fill="#0b1020" stroke="#a3aec6" stroke-width="2"/>
+<line x1="735.0" y1="220.0" x2="796.9" y2="343.7" stroke="#ffcf6f" stroke-width="8" stroke-linecap="round"/>
+<polygon points="805.0,360.0 784.5,343.9 804.4,334.0" fill="#ffcf6f"/>
+<line x1="805.0" y1="360.0" x2="947.1" y2="386.6" stroke="#ffcf6f" stroke-width="8" stroke-linecap="round"/>
+<polygon points="965.0,390.0 939.8,396.6 943.9,374.7" fill="#ffcf6f"/>
+<line x1="965.0" y1="390.0" x2="1107.3" y2="354.4" stroke="#ffcf6f" stroke-width="8" stroke-linecap="round"/>
+<polygon points="1125.0,350.0 1104.9,366.5 1099.5,344.9" fill="#ffcf6f"/>
+<line x1="1125.0" y1="350.0" x2="1098.2" y2="502.1" stroke="#ffcf6f" stroke-width="8" stroke-linecap="round"/>
+<polygon points="1095.0,520.0 1088.1,494.9 1110.0,498.8" fill="#ffcf6f"/>
+<text x="945.0" y="640.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">Performative</text>
+<text x="945.0" y="690.0" font-size="30" fill="#a3aec6" text-anchor="middle">a skilled path through it</text>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">schematic</text>
+</svg>

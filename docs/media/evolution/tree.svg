@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Where the literature places each capacity on the tree of life</title>
+<desc id="d">Simplified cladogram not to scale from LUCA to bacteria, archaea and animals, with seven numbered capacities at the organisms where authors argue they appear, and contested placements dashed and marked with a question mark. Details in the numbered list beside it.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<line x1="340.0" y1="70.0" x2="400.0" y2="70.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="340.0" y1="150.0" x2="400.0" y2="150.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="340.0" y1="230.0" x2="400.0" y2="230.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="340.0" y1="70.0" x2="340.0" y2="230.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="280.0" y1="150.0" x2="340.0" y2="150.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="280.0" y1="310.0" x2="400.0" y2="310.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="280.0" y1="150.0" x2="280.0" y2="310.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="220.0" y1="230.0" x2="280.0" y2="230.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="220.0" y1="390.0" x2="400.0" y2="390.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="220.0" y1="230.0" x2="220.0" y2="390.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="160.0" y1="310.0" x2="220.0" y2="310.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="160.0" y1="470.0" x2="400.0" y2="470.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="160.0" y1="310.0" x2="160.0" y2="470.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="50.0" y1="390.0" x2="160.0" y2="390.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="50.0" y1="550.0" x2="400.0" y2="550.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="50.0" y1="630.0" x2="400.0" y2="630.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<line x1="50.0" y1="390.0" x2="50.0" y2="630.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<text x="410.0" y="79.0" font-size="26" fill="#e7ecf5" text-anchor="start">Vertebrates</text>
+<text x="410.0" y="159.0" font-size="26" fill="#e7ecf5" text-anchor="start">Arthropods</text>
+<text x="410.0" y="239.0" font-size="26" fill="#e7ecf5" text-anchor="start">Cephalopods</text>
+<text x="410.0" y="319.0" font-size="26" fill="#e7ecf5" text-anchor="start">Cnidarians</text>
+<text x="410.0" y="399.0" font-size="26" fill="#e7ecf5" text-anchor="start">Sponges</text>
+<text x="410.0" y="479.0" font-size="26" fill="#e7ecf5" text-anchor="start">Ctenophores</text>
+<text x="410.0" y="559.0" font-size="26" fill="#e7ecf5" text-anchor="start">Archaea</text>
+<text x="410.0" y="639.0" font-size="26" fill="#e7ecf5" text-anchor="start">Bacteria</text>
+<circle cx="600.0" cy="70.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="600.0" y="78.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">2?</text>
+<circle cx="636.0" cy="70.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="636.0" y="78.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">5</text>
+<circle cx="672.0" cy="70.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="672.0" y="78.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">6?</text>
+<circle cx="708.0" cy="70.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="708.0" y="78.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">7?</text>
+<circle cx="600.0" cy="150.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="600.0" y="158.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">2?</text>
+<circle cx="636.0" cy="150.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="636.0" y="158.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">5</text>
+<circle cx="672.0" cy="150.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="672.0" y="158.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">6?</text>
+<circle cx="708.0" cy="150.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="708.0" y="158.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">7?</text>
+<circle cx="600.0" cy="230.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="600.0" y="238.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">2?</text>
+<circle cx="636.0" cy="230.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="636.0" y="238.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">5</text>
+<circle cx="600.0" cy="310.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="600.0" y="318.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">5</text>
+<circle cx="600.0" cy="470.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="600.0" y="478.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">4?</text>
+<circle cx="600.0" cy="630.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="600.0" y="638.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">3</text>
+<circle cx="50.0" cy="510.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="50.0" y="518.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">1?</text>
+<text x="74.0" y="518.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">LUCA</text>
+<circle cx="50.0" cy="440.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="50.0" y="448.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">2?</text>
+<circle cx="160.0" cy="350.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="160.0" y="358.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">3</text>
+<circle cx="280.0" cy="262.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="280.0" y="270.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">4?</text>
+<circle cx="752.0" cy="36.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="752.0" y="44.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">1?</text>
+<text x="780.0" y="44.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Metabolism</text>
+<text x="780.0" y="70.0" font-size="19" fill="#a3aec6" text-anchor="start">LUCA, about 4.2 billion years ago, an anaerobic</text>
+<text x="780.0" y="94.0" font-size="19" fill="#a3aec6" text-anchor="start">acetogen: Moody 2024. Debated. Also Weiss 2016</text>
+<circle cx="752.0" cy="128.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="752.0" y="136.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">2?</text>
+<text x="780.0" y="136.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Sentience</text>
+<text x="780.0" y="162.0" font-size="19" fill="#a3aec6" text-anchor="start">All cells: Reber; rejected by Robinson 2024.</text>
+<text x="780.0" y="186.0" font-size="19" fill="#a3aec6" text-anchor="start">Cambrian vertebrates: Feinberg, Mallatt 2013.</text>
+<text x="780.0" y="210.0" font-size="19" fill="#a3aec6" text-anchor="start">Three origins, with arthropods, cephalopods:</text>
+<text x="780.0" y="234.0" font-size="19" fill="#a3aec6" text-anchor="start">Birch, Ginsburg, Jablonka 2020</text>
+<circle cx="752.0" cy="268.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="752.0" y="276.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">3</text>
+<text x="780.0" y="276.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Movement</text>
+<text x="780.0" y="302.0" font-size="19" fill="#a3aec6" text-anchor="start">Bacterial flagella. Muscle coordination in</text>
+<text x="780.0" y="326.0" font-size="19" fill="#a3aec6" text-anchor="start">animals: Puente-Lelievre 2025, Jékely 2015</text>
+<circle cx="752.0" cy="360.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="752.0" y="368.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">4?</text>
+<text x="780.0" y="368.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Nervous system</text>
+<text x="780.0" y="394.0" font-size="19" fill="#a3aec6" text-anchor="start">About 750-800 Ma: Cisek 2019. Separately in</text>
+<text x="780.0" y="418.0" font-size="19" fill="#a3aec6" text-anchor="start">ctenophores? Moroz 2014; Schultz, Burkhardt 2023</text>
+<circle cx="752.0" cy="452.0" r="17" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="752.0" y="460.0" font-size="23" fill="#e7ecf5" text-anchor="middle" font-weight="700">5</text>
+<text x="780.0" y="460.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Vision</text>
+<text x="780.0" y="486.0" font-size="19" fill="#a3aec6" text-anchor="start">Opsin to sharp eyes, 700-530 Ma: Nilsson 2013</text>
+<circle cx="752.0" cy="520.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="752.0" y="528.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">6?</text>
+<text x="780.0" y="528.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">World representation</text>
+<text x="780.0" y="554.0" font-size="19" fill="#a3aec6" text-anchor="start">Vertebrates, by 520 Ma: Feinberg, Mallatt 2013.</text>
+<text x="780.0" y="578.0" font-size="19" fill="#a3aec6" text-anchor="start">Insects too, Cambrian: Barron, Klein 2016</text>
+<circle cx="752.0" cy="612.0" r="17" fill="#2a2412" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="752.0" y="620.0" font-size="21" fill="#e7ecf5" text-anchor="middle" font-weight="700">7?</text>
+<text x="780.0" y="620.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Self and world apart</text>
+<text x="780.0" y="646.0" font-size="19" fill="#a3aec6" text-anchor="start">Mobile animals with centralized brains: Merker</text>
+<text x="780.0" y="670.0" font-size="19" fill="#a3aec6" text-anchor="start">2005. Insects, vertebrates: Barron, Klein 2016</text>
+<text x="50.0" y="700.0" font-size="23" fill="#e7ecf5" text-anchor="start">Dashed with ?: contested, or argued by the named authors only.</text>
+<text x="50.0" y="732.0" font-size="23" fill="#a3aec6" text-anchor="start">Solid: not in dispute in the sources read.</text>
+<text x="50.0" y="772.0" font-size="19" fill="#a3aec6" text-anchor="start">Simplified, not to scale. Animal order follows Schultz 2023, long disputed. Root split left unresolved.</text>
+</svg>

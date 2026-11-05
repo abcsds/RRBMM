@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">The constructive chain, step 7</title>
+<desc id="d">Strip of eight steps in order: Senso-perception Interoception, constructed affect Need, emotion, motivation, behaviour Mental constructs Attention, self-awareness, consciousness Language Isomorphisms Inter-subjective, then a border beyond which lie culture and anthropology. Step 7 is highlighted.</desc>
+<rect width="1280" height="200" fill="#0b1020"/>
+<rect x="8" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="77.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">1</text>
+<text x="77.0" y="101.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Senso-</text>
+<text x="77.0" y="122.6" font-size="18" fill="#e7ecf5" text-anchor="middle">perception</text>
+<rect x="154" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="223.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">2</text>
+<text x="223.0" y="90.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Interoception,</text>
+<text x="223.0" y="111.6" font-size="18" fill="#e7ecf5" text-anchor="middle">constructed</text>
+<text x="223.0" y="133.2" font-size="18" fill="#e7ecf5" text-anchor="middle">affect</text>
+<rect x="300" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="369.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">3</text>
+<text x="369.0" y="79.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Need,</text>
+<text x="369.0" y="100.6" font-size="18" fill="#e7ecf5" text-anchor="middle">emotion,</text>
+<text x="369.0" y="122.2" font-size="18" fill="#e7ecf5" text-anchor="middle">motivation,</text>
+<text x="369.0" y="143.8" font-size="18" fill="#e7ecf5" text-anchor="middle">behaviour</text>
+<rect x="446" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="515.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">4</text>
+<text x="515.0" y="101.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Mental</text>
+<text x="515.0" y="122.6" font-size="18" fill="#e7ecf5" text-anchor="middle">constructs</text>
+<rect x="592" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="661.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">5</text>
+<text x="661.0" y="79.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Attention,</text>
+<text x="661.0" y="100.6" font-size="18" fill="#e7ecf5" text-anchor="middle">self-</text>
+<text x="661.0" y="122.2" font-size="18" fill="#e7ecf5" text-anchor="middle">awareness,</text>
+<text x="661.0" y="143.8" font-size="18" fill="#e7ecf5" text-anchor="middle">consciousness</text>
+<rect x="738" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="807.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">6</text>
+<text x="807.0" y="112.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Language</text>
+<rect x="884" y="26" width="138" height="150" rx="8" fill="#3a3016" stroke="#ffcf6f" stroke-width="5"/>
+<text x="953.0" y="52.0" font-size="22" fill="#ffcf6f" text-anchor="middle" font-weight="700">7</text>
+<text x="953.0" y="112.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Isomorphisms</text>
+<rect x="1030" y="26" width="138" height="150" rx="8" fill="#161d33" stroke="#a3aec6" stroke-width="2"/>
+<text x="1099.0" y="52.0" font-size="22" fill="#a3aec6" text-anchor="middle" font-weight="700">8</text>
+<text x="1099.0" y="101.0" font-size="18" fill="#e7ecf5" text-anchor="middle">Inter-</text>
+<text x="1099.0" y="122.6" font-size="18" fill="#e7ecf5" text-anchor="middle">subjective</text>
+<line x1="1178.0" y1="8.0" x2="1178.0" y2="192.0" stroke="#e7ecf5" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round"/>
+<text x="1228.0" y="92.0" font-size="18" fill="#a3aec6" text-anchor="middle">Culture,</text>
+<text x="1228.0" y="113.6" font-size="18" fill="#a3aec6" text-anchor="middle">anthro-</text>
+<text x="1228.0" y="135.2" font-size="18" fill="#a3aec6" text-anchor="middle">pology</text>
+</svg>

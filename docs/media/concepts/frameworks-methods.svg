@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Two-part diagram of the talk</title>
+<desc id="d">Diagram of conceptual frameworks and methodologies, where frameworks predict and methods test, with learning and development marked as skipped.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="70" y="70" width="480" height="470" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="5"/>
+<text x="310.0" y="135.0" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">Conceptual</text>
+<text x="310.0" y="187.8" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">frameworks</text>
+<rect x="140.0" y="430" width="340" height="44" rx="8" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<rect x="170.0" y="374" width="280" height="44" rx="8" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<rect x="200.0" y="318" width="220" height="44" rx="8" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<rect x="230.0" y="262" width="160" height="44" rx="8" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="310.0" y="525.0" font-size="28" fill="#a3aec6" text-anchor="middle">what we say a mind is</text>
+<rect x="730" y="70" width="480" height="470" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="5"/>
+<text x="970.0" y="155.0" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">Methodologies</text>
+<line x1="790.0" y1="490.0" x2="1150.0" y2="490.0" stroke="#a3aec6" stroke-width="3" stroke-linecap="round"/>
+<line x1="790.0" y1="490.0" x2="790.0" y2="215.0" stroke="#a3aec6" stroke-width="3" stroke-linecap="round"/>
+<path d="M800.0 479.1 L803.4 479.0 L806.8 478.8 L810.2 478.7 L813.6 478.6 L817.0 478.4 L820.4 478.2 L823.8 478.0 L827.2 477.8 L830.6 477.5 L834.0 477.2 L837.4 476.9 L840.8 476.5 L844.2 476.1 L847.6 475.7 L851.0 475.2 L854.4 474.6 L857.8 474.0 L861.2 473.3 L864.6 472.6 L868.0 471.7 L871.4 470.8 L874.8 469.8 L878.2 468.6 L881.6 467.4 L885.0 466.0 L888.4 464.4 L891.8 462.7 L895.2 460.8 L898.6 458.8 L902.0 456.5 L905.4 454.1 L908.8 451.4 L912.2 448.5 L915.6 445.3 L919.0 441.9 L922.4 438.2 L925.8 434.2 L929.2 429.9 L932.6 425.4 L936.0 420.6 L939.4 415.5 L942.8 410.1 L946.2 404.4 L949.6 398.6 L953.0 392.5 L956.4 386.2 L959.8 379.8 L963.2 373.3 L966.6 366.7 L970.0 360.0 L973.4 353.3 L976.8 346.7 L980.2 340.2 L983.6 333.8 L987.0 327.5 L990.4 321.4 L993.8 315.6 L997.2 309.9 L1000.6 304.5 L1004.0 299.4 L1007.4 294.6 L1010.8 290.1 L1014.2 285.8 L1017.6 281.8 L1021.0 278.1 L1024.4 274.7 L1027.8 271.5 L1031.2 268.6 L1034.6 265.9 L1038.0 263.5 L1041.4 261.2 L1044.8 259.2 L1048.2 257.3 L1051.6 255.6 L1055.0 254.0 L1058.4 252.6 L1061.8 251.4 L1065.2 250.2 L1068.6 249.2 L1072.0 248.3 L1075.4 247.4 L1078.8 246.7 L1082.2 246.0 L1085.6 245.4 L1089.0 244.8 L1092.4 244.3 L1095.8 243.9 L1099.2 243.5 L1102.6 243.1 L1106.0 242.8 L1109.4 242.5 L1112.8 242.2 L1116.2 242.0 L1119.6 241.8 L1123.0 241.6 L1126.4 241.4 L1129.8 241.3 L1133.2 241.2 L1136.6 241.0 L1140.0 240.9" fill="none" stroke="#ffcf6f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="834.0" cy="468.8" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="874.8" cy="457.1" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="915.6" cy="442.0" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="956.4" cy="375.2" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="997.2" cy="296.0" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="1038.0" cy="260.3" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="1078.8" cy="260.0" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<circle cx="1119.6" cy="251.4" r="8" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<text x="970.0" y="525.0" font-size="28" fill="#a3aec6" text-anchor="middle">how we find out</text>
+<line x1="555.0" y1="240.0" x2="712.4" y2="240.0" stroke="#e7ecf5" stroke-width="6" stroke-linecap="round"/>
+<polygon points="725.0,240.0 708.7,247.7 708.7,232.3" fill="#e7ecf5"/>
+<text x="640.0" y="222.0" font-size="32" fill="#e7ecf5" text-anchor="middle">predict</text>
+<line x1="725.0" y1="370.0" x2="567.6" y2="370.0" stroke="#e7ecf5" stroke-width="6" stroke-dasharray="14 10" stroke-linecap="round"/>
+<polygon points="555.0,370.0 571.3,362.3 571.3,377.7" fill="#e7ecf5"/>
+<text x="640.0" y="412.0" font-size="32" fill="#e7ecf5" text-anchor="middle">test</text>
+<rect x="290" y="600" width="700" height="110" rx="12" fill="#0b1020" stroke="#a3aec6" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="640.0" y="646.0" font-size="30" fill="#a3aec6" text-anchor="middle" font-weight="700">Skipped tonight</text>
+<text x="640.0" y="690.0" font-size="34" fill="#e7ecf5" text-anchor="middle">learning  ·  development</text>
+</svg>

@@ -56,7 +56,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="talk_files/libs/revealjs/dist/theme/quarto-b4ac850f8cbfe0f946758e0eae567b5e.css">
+  <link rel="stylesheet" href="talk_files/libs/revealjs/dist/theme/quarto-a3b605f156366e052b79984ee0ea0694.css">
   <link href="talk_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="talk_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="talk_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -167,108 +167,263 @@ Alberto Barradas (Xiutik)
 
   <p class="date">2026-11-05</p>
 </section>
-<section>
-<section id="you-only-meet-a-mind-through-a-method" class="title-slide slide level1 center">
-<h1>You only meet a mind through a method</h1>
-<div class="statement">
-<p>A construct is a <strong>latent variable</strong>. A method is its <strong>encoder</strong>. Tonight, you are the dataset.</p>
+<section id="intro" class="title-slide slide level1 opener center" data-background-image="media/hexagon.svg" data-background-size="auto 84%" data-background-color="#ffffff">
+<h1>Intro</h1>
+<div class="footer-note">
+<p>Hexagon: <a href="https://commons.wikimedia.org/w/index.php?curid=19461955">Charles Lowe, derivative work, Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>.</p>
 </div>
 </section>
-<section id="last-time-encoders-infer-what-they-cannot-see" class="slide level2">
-<h2>Last time: encoders infer what they cannot see</h2>
+<section id="overview" class="title-slide slide level1 center overview">
+<h1>Overview</h1>
+<p>Conceptual Frameworks and Methodologies</p>
 <ul>
-<li>Variational autoencoders <span class="citation" data-cites="kingma2013">(<a href="#/references" role="doc-biblioref" onclick="">Kingma and Welling 2013</a>)</span></li>
-<li>Representation learning <span class="citation" data-cites="bengio2013">(<a href="#/references" role="doc-biblioref" onclick="">Bengio, Courville, and Vincent 2013</a>)</span></li>
-<li>Embedded spaces: distance as meaning</li>
+<li>Conceptual framework and objective</li>
+<li>Objective and subjective: representation, levels of analysis, architectures, qualia</li>
+<li>Constructivism: from physics to the self</li>
+<li>Perception, sense organs, interoception and constructed affect</li>
+<li>Need, emotion, motivation, behaviour</li>
+<li>Methods: random-dot motion, drift diffusion, visual search, n-back, rivalry, flash suppression, Stroop</li>
+<li>Intersubjective: the border</li>
+<li>Outputs: theories of consciousness, attention and meditation, the default mode network</li>
+<li>Actionable concepts</li>
 </ul>
-<div class="muted">
-<p>Same move tonight: nobody observes “attention”. We infer it from what people do.</p>
+</section>
+<section id="conceptual-framework" class="title-slide slide level1 center">
+<h1>Conceptual framework</h1>
+<p>(our stance) Dialectical Constructivist Materialism</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Existentialist warning.</p>
+</div>
+</div>
 </div>
 </section>
-<section id="the-map-in-four-cuts" class="slide level2">
-<h2>The map, in four cuts</h2>
-<div class="grid2">
-<div class="card">
-<p><strong>Levels of analysis.</strong> What is computed, how, and in what <span class="citation" data-cites="marr1982">(<a href="#/references" role="doc-biblioref" onclick="">Marr 1982</a>)</span>.</p>
-</div>
-<div class="card v">
-<p><strong>Symbolic vs connectionist.</strong> Rules over symbols, or learned vectors <span class="citation" data-cites="fodor1988 rumelhart1986pdp lake2023">(<a href="#/references" role="doc-biblioref" onclick="">Fodor and Pylyshyn 1988</a>; <a href="#/references" role="doc-biblioref" onclick="">Rumelhart and McClelland 1986</a>; <a href="#/references" role="doc-biblioref" onclick="">Lake and Baroni 2023</a>)</span>.</p>
-</div>
-<div class="card a">
-<p><strong>Representing vs performing.</strong> Knowing that, knowing how. A different axis from what signal trains you <span class="citation" data-cites="squire2004 doya2000">(<a href="#/references" role="doc-biblioref" onclick="">Squire 2004</a>; <a href="#/references" role="doc-biblioref" onclick="">Doya 2000</a>)</span>.</p>
-</div>
-<div class="card g">
-<p><strong>Hardware and software.</strong> A good start. It breaks at memory, metabolism and the body <span class="citation" data-cites="richards2022 sennesh2022">(<a href="#/references" role="doc-biblioref" onclick="">Richards and Lillicrap 2022</a>; <a href="#/references" role="doc-biblioref" onclick="">Sennesh et al. 2022</a>)</span>.</p>
-</div>
-</div>
-<div class="muted">
-<p>ACT-R: symbolic rules over learned activations, turning knowing-that into knowing-how <span class="citation" data-cites="anderson2019">(<a href="#/references" role="doc-biblioref" onclick="">Anderson et al. 2019</a>)</span>. Tonight we skip <strong>learning</strong> and <strong>development</strong>.</p>
-</div>
+<section id="question" class="slide level2 center">
+<h2>Question!</h2>
 </section>
-<section id="constructive-it-exists-once-you-can-build-it" class="slide level2">
-<h2>Constructive: it exists once you can build it</h2>
-<div class="grid2">
-<div class="card">
-<p><strong>Constructive mathematics</strong></p>
-<p>To claim it exists, construct it. A proof is a program <span class="citation" data-cites="bishop1967 wadler2015">(<a href="#/references" role="doc-biblioref" onclick="">Bishop 1967</a>; <a href="#/references" role="doc-biblioref" onclick="">Wadler 2015</a>)</span>.</p>
-</div>
-<div class="card v">
-<p><strong>Cognitive science</strong></p>
-<p>To claim a construct, give the procedure that measures it <span class="citation" data-cites="cronbach1955 borsboom2004">(<a href="#/references" role="doc-biblioref" onclick="">Cronbach and Meehl 1955</a>; <a href="#/references" role="doc-biblioref" onclick="">Borsboom, Mellenbergh, and Heerden 2004</a>)</span>.</p>
-</div>
-</div>
-<div class="statement">
-<p>A parallel, not a lineage.</p>
-</div>
-<div class="muted">
-<p>Aggregates: reflective, a latent cause behind the indicators; or formative, a sum of its parts.</p>
-</div>
-</section>
-<section id="two-measures-one-word" class="slide level2">
-<h2>Two measures, one word</h2>
-<ul>
-<li>Tasks and surveys of “self-regulation” barely agree <span class="citation" data-cites="eisenberg2019">(<a href="#/references" role="doc-biblioref" onclick="">Eisenberg et al. 2019</a>)</span></li>
-<li>One name, many constructs; many names, one construct <span class="citation" data-cites="wulff2025">(<a href="#/references" role="doc-biblioref" onclick="">Wulff and Mata 2025</a>)</span></li>
-<li>Cognitive dissonance: the classic design failed across 39 labs, N = 4,898 <span class="citation" data-cites="vaidis2024">(<a href="#/references" role="doc-biblioref" onclick="">Vaidis et al. 2024</a>)</span></li>
-</ul>
-<div class="muted">
-<p>Every word from here on comes with its method.</p>
-</div>
+<section><section id="objective" class="title-slide slide level1 center">
+<h1>Objective</h1>
+<p>Implicit and Explicit Knowledge</p>
+</section><section id="objective-1" class="slide level2 down opener" data-background-image="media/concepts/implicit-explicit.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Objective</h2>
 </section></section>
-<section>
-<section id="you-do-not-just-see-the-world" class="title-slide slide level1 center">
-<h1>You do not just see the world</h1>
+<section id="the-language-so-far" class="slide level2">
+<h2>The language so far</h2>
+<p><img data-src="media/concepts/dikw.svg" alt="The DIKW pyramid from the last talk: data, information, knowledge, wisdom." height="600"></p>
+</section>
+<section id="objective-and-subjective" class="title-slide slide level1 opener center" data-background-iframe="https://media.ccc.de/v/realraum-variational-autoencorders-the-cognitive-scientist-s-favorite-deep-learning-tool/oembed" data-background-interactive="true">
+<h1>Objective and subjective</h1>
 
 </section>
+<section id="variational-autoencoders" class="slide level2">
+<h2>Variational autoencoders</h2>
+<div class="term">
+<p><strong>Latent variable:</strong> what the encoder infers; it is never observed directly.</p>
+</div>
+<p><img data-src="media/concepts/vae.svg" alt="Encoder, latent space and decoder." height="520"></p>
+<div class="footer-note">
+<p><span class="citation" data-cites="kingma2013 bengio2013">(<a href="#/references" role="doc-biblioref" onclick="">Kingma and Welling 2013</a>; <a href="#/references" role="doc-biblioref" onclick="">Bengio, Courville, and Vincent 2013</a>)</span></p>
+</div>
+</section>
+<section><section id="representational-and-performative-intelligence" class="slide level2">
+<h2>Representational and performative intelligence</h2>
+<ul>
+<li>Representational Intelligence</li>
+<li>Performative Intelligence</li>
+</ul>
+<div class="footer-note">
+<p><span class="citation" data-cites="squire2004 doya2000">(<a href="#/references" role="doc-biblioref" onclick="">Squire 2004</a>; <a href="#/references" role="doc-biblioref" onclick="">Doya 2000</a>)</span></p>
+</div>
+</section><section id="representational-and-performative-intelligence-1" class="slide level2 down opener" data-background-image="media/concepts/rep-perf.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Representational and performative intelligence</h2>
+</section></section>
+<section><section id="levels-of-analysis" class="slide level2">
+<h2>Levels of analysis</h2>
+<p>The same system described by what it computes, how it computes it, and what implements it.</p>
+<div class="footer-note">
+<p><span class="citation" data-cites="marr1982">(<a href="#/references" role="doc-biblioref" onclick="">Marr 1982</a>)</span></p>
+</div>
+</section><section id="levels-of-analysis-1" class="slide level2 down opener" data-background-image="media/concepts/levels.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Levels of analysis</h2>
+</section></section>
+<section><section id="symbolic-vs-connectionist" class="slide level2">
+<h2>Symbolic vs connectionist</h2>
+<p>Rules over discrete symbols vs learned distributed vectors. The last talk lived on one side, ACT-R is a hybrid.</p>
+<div class="footer-note">
+<p><span class="citation" data-cites="fodor1988 rumelhart1986pdp lake2023">(<a href="#/references" role="doc-biblioref" onclick="">Fodor and Pylyshyn 1988</a>; <a href="#/references" role="doc-biblioref" onclick="">Rumelhart and McClelland 1986</a>; <a href="#/references" role="doc-biblioref" onclick="">Lake and Baroni 2023</a>)</span></p>
+</div>
+</section><section id="symbolic-vs-connectionist-1" class="slide level2 down opener" data-background-image="media/concepts/symbolic-connectionist.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Symbolic vs connectionist</h2>
+</section></section>
+<section id="noah-goodman-causal-abstraction" class="slide level2 opener" data-background-iframe="https://www.youtube-nocookie.com/embed/zPkRyTLjYHI" data-background-interactive="true">
+<h2>Noah Goodman: causal abstraction</h2>
+</section>
+<section><section id="hardwaresoftware-and-architectures" class="slide level2">
+<h2>Hardware/Software and Architectures</h2>
+<p>The clear distinctions between the substrate and the implementation of intelligence: hardware vs software.</p>
+<div class="footer-note">
+<p><span class="citation" data-cites="richards2022 attwell2001 sennesh2022">(<a href="#/references" role="doc-biblioref" onclick="">Richards and Lillicrap 2022</a>; <a href="#/references" role="doc-biblioref" onclick="">Attwell and Laughlin 2001</a>; <a href="#/references" role="doc-biblioref" onclick="">Sennesh et al. 2022</a>)</span></p>
+</div>
+</section><section id="hardwaresoftware-and-architectures-1" class="slide level2 down opener" data-background-image="media/concepts/hardware-software.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Hardware/Software and Architectures</h2>
+</section></section>
+<section><section id="architectures-act-r" class="slide level2">
+<h2>Architectures: ACT-R</h2>
+<p><img data-src="media/concepts/act-r.svg" alt="ACT-R modules around a central production system." height="600"></p>
+<div class="footer-note">
+<p><span class="citation" data-cites="anderson2004 anderson2019">(<a href="#/references" role="doc-biblioref" onclick="">Anderson et al. 2004</a>, <a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p>
+</div>
+</section><section id="architectures-act-r-complete" class="slide level2 down opener" data-background-image="media/concepts/act-r-full.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Architectures: ACT-R, complete</h2>
+</section></section>
+<section><section id="qualia-subjobj" class="slide level2">
+<h2>Qualia: Subj/Obj</h2>
+<div class="footer-note">
+<p><span class="citation" data-cites="nagel1974 chalmers1995">(<a href="#/references" role="doc-biblioref" onclick="">Nagel 1974</a>; <a href="#/references" role="doc-biblioref" onclick="">Chalmers 1995</a>)</span></p>
+</div>
+</section><section id="qualia-subjobj-1" class="slide level2 down opener" data-background-image="media/concepts/subj-obj.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Qualia: Subj/Obj</h2>
+</section></section>
+<section><section id="two-branches" class="slide level2">
+<h2>Two branches</h2>
+<ul>
+<li>Arising from the physical properties of nature: chemistry, biology, and anatomy</li>
+<li>Arising from the properties of information processing on that same hardware</li>
+</ul>
+</section><section id="two-branches-1" class="slide level2 down opener" data-background-image="media/concepts/two-branches.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Two branches</h2>
+</section></section>
+<section id="constructivism" class="slide level2">
+<h2>Constructivism</h2>
+<p>As chemistry emerges from physics, so does mind from brain.</p>
+</section>
+<section id="operative-definitions" class="slide level2">
+<h2>Operative definitions</h2>
+<ul>
+<li><strong>Construct:</strong> a word for something we infer and cannot observe directly, defined by how we measure it</li>
+<li>Tasks and surveys of “self-regulation” barely agree <span class="citation" data-cites="eisenberg2019">(<a href="#/references" role="doc-biblioref" onclick="">Eisenberg et al. 2019</a>)</span></li>
+<li>One name, many constructs; many names, one construct <span class="citation" data-cites="wulff2025">(<a href="#/references" role="doc-biblioref" onclick="">Wulff and Mata 2025</a>)</span></li>
+</ul>
+</section>
+<section><section id="mental-constructs-as-aggregates" class="slide level2">
+<h2>Mental constructs as aggregates</h2>
+<ul>
+<li>Reflective: a latent cause behind the indicators</li>
+<li>Formative: a sum defined by its parts</li>
+</ul>
+</section><section id="mental-constructs-as-aggregates-1" class="slide level2 down opener" data-background-image="media/concepts/aggregates.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Mental constructs as aggregates</h2>
+</section></section>
+<section><section id="from-physics-to-the-self" class="slide level2">
+<h2>From physics to the self</h2>
+<ul>
+<li>Physics, metabolism, and sentience</li>
+<li>Evolutive biology view, psychological view, social view</li>
+<li>Functional and representational frameworks for understanding behavior</li>
+<li>Attention, consciousness and the construction of the self (autobiographical memory)</li>
+<li>Movement, nervous system and vision, world representation and the self</li>
+<li>Theory of mind and language</li>
+</ul>
+</section><section id="from-physics-to-the-self-1" class="slide level2 down opener" data-background-image="media/concepts/ladder.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>From physics to the self</h2>
+</section><section id="the-rungs-on-the-tree-of-life" class="slide level2 down opener" data-background-image="media/evolution/tree.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>The rungs on the tree of life</h2>
+</section><section id="eyes-world-representation-using-light" class="slide level2 down opener" data-background-image="media/evolution/eyes.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Eyes: world representation using light</h2>
+</section><section id="the-self-separating-self-from-world" class="slide level2 down opener" data-background-image="media/evolution/self.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>The self: separating self from world</h2>
+</section></section>
+<section><section id="a-chain-of-constructive-and-functional-layered-frameworks" class="slide level2">
+<h2>A chain of constructive and functional layered frameworks</h2>
+<ul>
+<li>Senso-Perception</li>
+<li>Hierarchical Interoception and Constructed affect</li>
+<li>Need, Emotion, Motivation, Behaviour</li>
+<li>Mental Constructs</li>
+<li>Attention, Self-Awareness, and Consciousness</li>
+<li>Language</li>
+<li>Isomorphisms: Cognitive science :D</li>
+<li>Intersubjective Plato’s Ideal world</li>
+</ul>
+</section><section id="a-chain-of-constructive-and-functional-layered-frameworks-1" class="slide level2 down opener" data-background-image="media/concepts/chain.svg" data-background-size="contain" data-background-color="#0b1020">
+<h2>A chain of constructive and functional layered frameworks</h2>
+</section></section>
+<section id="watch" class="slide level2">
+<h2>Watch</h2>
+<p><img data-src="media/tasks/change_once.gif" alt="A photo, a single brief flash, then the photo with one thing changed." height="560"></p>
+</section>
+<section id="the-original" class="slide level2">
+<h2>The original</h2>
+<p><img data-src="media/tasks/change_original_ring.png" alt="The original photo, with the silver spoon circled." height="560"></p>
+<div class="footer-note">
+<p>Change blindness <span class="citation" data-cites="rensink1997 simons1997">(<a href="#/references" role="doc-biblioref" onclick="">Rensink, O’Regan, and Clark 1997</a>; <a href="#/references" role="doc-biblioref" onclick="">Simons and Levin 1997</a>)</span>.</p>
+</div>
+</section>
+<section id="the-spoon-silver-then-gold" class="slide level2">
+<h2>The spoon: silver, then gold</h2>
+<div class="grid2">
+<p><img data-src="media/tasks/change_original_ring.png" alt="Before: silver spoon, circled."></p>
+<p><img data-src="media/tasks/change_after_ring.png" alt="After: gold spoon, circled."></p>
+</div>
+</section>
+<section id="sense-organs" class="slide level2 opener" data-background-image="media/senses/sense-organs.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Sense organs</h2>
+<div class="footer-note">
+<p><a href="media/senses/index.html">The full table, with references</a>.</p>
+</div>
+</section>
+<section id="hierarchical-interoception" class="slide level2">
+<h2>Hierarchical interoception</h2>
+<div class="term">
+<p><strong>Interoception:</strong> sensing the state of your own body.</p>
+</div>
+<p><img data-src="media/concepts/interoception-hierarchy.svg" alt="Body signals rising through levels, with predictions descending and errors ascending, ending in constructed affect." height="520"></p>
+<div class="footer-note">
+<p>Schematic <span class="citation" data-cites="craig2002 seth2013 barrett2017 sennesh2022">(<a href="#/references" role="doc-biblioref" onclick="">Craig 2002</a>; <a href="#/references" role="doc-biblioref" onclick="">Seth 2013</a>; <a href="#/references" role="doc-biblioref" onclick="">Barrett 2017</a>; <a href="#/references" role="doc-biblioref" onclick="">Sennesh et al. 2022</a>)</span>.</p>
+</div>
+</section>
+<section><section id="constructed-affect" class="slide level2">
+<h2>Constructed affect</h2>
+<div class="footer-note">
+<p>Schematic <span class="citation" data-cites="barrett2017">(<a href="#/references" role="doc-biblioref" onclick="">Barrett 2017</a>)</span>.</p>
+</div>
+</section><section id="constructed-affect-1" class="slide level2 down opener" data-background-image="media/concepts/constructed-affect.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Constructed affect</h2>
+</section></section>
 <section id="priming-a-prior-changes-what-you-see" class="slide level2">
 <h2>Priming: a prior changes what you see</h2>
-<p><img data-src="media/tasks/priming.gif" alt="Two-tone image, then the source photo of a cat, then the same two-tone image." height="520"></p>
+<div class="term">
+<p><strong>Prior:</strong> what you already expect, which shapes what you perceive.</p>
+</div>
+<p><img data-src="media/tasks/priming.gif" alt="Two-tone image, then the source photo of a cat, then the same two-tone image." height="470"></p>
 <div class="footer-note">
 <p>Live. Mooney 1957 <span class="citation" data-cites="mooney1957">(<a href="#/references" role="doc-biblioref" onclick="">Mooney 1957</a>)</span>. Word for the glossary: <strong>prior</strong> <span class="citation" data-cites="knill2004">(<a href="#/references" role="doc-biblioref" onclick="">Knill and Pouget 2004</a>)</span>.</p>
 </div>
 </section>
-<section id="change-blindness-looking-is-not-seeing" class="slide level2">
-<h2>Change blindness: looking is not seeing</h2>
-<button class="play" data-gif="media/tasks/change_blindness.gif" aria-label="Play the change blindness animation. It flashes about 2.8 times a second.">
-<img src="media/tasks/change_blindness.png" alt="A photo of a rocket on a launch pad, alternating with a grey blank. One object changes between the photos." height="500">
-</button>
-<div class="footer-note">
-<p>Live. Flashes about 3 times a second: click to play. <span class="citation" data-cites="rensink1997">(<a href="#/references" role="doc-biblioref" onclick="">Rensink, O’Regan, and Clark 1997</a>)</span></p>
-</div>
-</section></section>
-<section>
-<section id="from-the-body-to-wanting" class="title-slide slide level1 center">
-<h1>From the body to wanting</h1>
-
+<section id="a-new-one" class="slide level2">
+<h2>A new one</h2>
+<p><img data-src="media/tasks/mooney_face_inverted.png" alt="Two-tone image of an upside-down face, hard to read." height="540"></p>
 </section>
-<section id="interoception-the-system-runs-its-own-body" class="slide level2">
-<h2>Interoception: the system runs its own body</h2>
-<ul>
-<li>Heartbeat counting, 30 seconds, hands off your pulse</li>
-<li>Then: how sure are you? Accuracy and confidence are different measures <span class="citation" data-cites="garfinkel2015">(<a href="#/references" role="doc-biblioref" onclick="">Garfinkel et al. 2015</a>)</span></li>
-<li>A contested task, which is the lesson <span class="citation" data-cites="desmedt2018">(<a href="#/references" role="doc-biblioref" onclick="">Desmedt, Luminet, and Corneille 2018</a>)</span></li>
-<li>Affect as a construction from body signals and concepts <span class="citation" data-cites="barrett2017">(<a href="#/references" role="doc-biblioref" onclick="">Barrett 2017</a>)</span></li>
-</ul>
+<section id="turn-it-around" class="slide level2">
+<h2>Turn it around</h2>
+<p><img data-src="media/tasks/mooney_face_upright.png" alt="The same two-tone image the right way up: a face." height="540"></p>
+</section>
+<section id="the-source" class="slide level2">
+<h2>The source</h2>
+<p><img data-src="media/tasks/mooney_face_source.png" alt="The source photo of the same face." height="540"></p>
+<div class="footer-note">
+<p>Face inversion <span class="citation" data-cites="kanwisher1998 latinus2005">(<a href="#/references" role="doc-biblioref" onclick="">Kanwisher, Tong, and Nakayama 1998</a>; <a href="#/references" role="doc-biblioref" onclick="">Latinus and Taylor 2005</a>)</span>. Portrait: Julia Margaret Cameron, 1867, public domain.</p>
+</div>
+</section>
+<section id="need-emotion-motivation-behaviour" class="slide level2 opener" data-background-image="media/concepts/need-chain.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Need, emotion, motivation, behaviour</h2>
 </section>
 <section id="why-we-start-things" class="slide level2">
 <h2>Why we start things</h2>
@@ -279,29 +434,62 @@ Alberto Barradas (Xiutik)
 </section>
 <section id="where-you-place-control" class="slide level2">
 <h2>Where you place control</h2>
-<p><img data-src="media/differences/locus-of-control.svg" alt="Schematic of attributing an outcome to internal or external causes." height="560"></p>
+<div class="term">
+<p><strong>Locus of control:</strong> where you place the cause of what happens.</p>
+</div>
+<p><img data-src="media/differences/locus-of-control.svg" alt="Schematic of attributing an outcome to internal or external causes." height="490"></p>
 <div class="footer-note">
 <p>A language, more than a distinct trait: <span class="citation" data-cites="rotter1966 judge2002">(<a href="#/references" role="doc-biblioref" onclick="">Rotter 1966</a>; <a href="#/references" role="doc-biblioref" onclick="">Judge et al. 2002</a>)</span>. “External” is not “bad” <span class="citation" data-cites="cheng2013">(<a href="#/references" role="doc-biblioref" onclick="">Cheng et al. 2013</a>)</span>.</p>
 </div>
 </section>
 <section id="monotropism-one-thing-at-a-time-deeply" class="slide level2">
 <h2>Monotropism: one thing at a time, deeply</h2>
-<p><img data-src="media/differences/monotropism.svg" alt="Schematic of time allocation across tasks and the cost of switching." height="520"></p>
+<div class="term">
+<p><strong>Monotropism:</strong> attention built around interest.</p>
+</div>
+<p><img data-src="media/differences/monotropism.svg" alt="Schematic of time allocation across tasks and the cost of switching." height="470"></p>
 <div class="footer-note">
 <p>Theory from autistic lived experience, measurement only starting <span class="citation" data-cites="murray2005 garau2023 dwyer2025">(<a href="#/references" role="doc-biblioref" onclick="">Murray, Lesser, and Lawson 2005</a>; <a href="#/references" role="doc-biblioref" onclick="">Garau et al. 2023</a>; <a href="#/references" role="doc-biblioref" onclick="">Dwyer et al. 2025</a>)</span>. Ask, do not infer.</p>
 </div>
-</section></section>
-<section>
-<section id="deciding" class="title-slide slide level1 center">
-<h1>Deciding</h1>
-
 </section>
-<section id="random-dot-motion" class="slide level2">
+<section id="random-dot-motion" class="slide level2 center">
 <h2>Random-dot motion</h2>
-<p><img data-src="media/tasks/rdm.gif" alt="Field of moving white dots at low coherence." height="520"></p>
+<p>A field of dots; some fraction moves together, and that fraction is the coherence. How little can you still read? <span class="citation" data-cites="newsome1988 britten1992">(<a href="#/references" role="doc-biblioref" onclick="">Newsome and Pare 1988</a>; <a href="#/references" role="doc-biblioref" onclick="">Britten et al. 1992</a>)</span></p>
+</section>
+<section id="which-way" class="slide level2">
+<h2>Which way?</h2>
+<p><img data-src="media/tasks/rdm_left_52.gif" alt="Field of moving white dots." height="560"></p>
+</section>
+<section id="left-52-coherence" class="slide level2 center">
+<h2>Left, 52 % coherence</h2>
+</section>
+<section id="which-way-1" class="slide level2">
+<h2>Which way?</h2>
+<p><img data-src="media/tasks/rdm_right_3.gif" alt="Field of moving white dots." height="560"></p>
+</section>
+<section id="right-3.2-coherence" class="slide level2 center">
+<h2>Right, 3.2 % coherence</h2>
+</section>
+<section id="which-way-2" class="slide level2">
+<h2>Which way?</h2>
+<p><img data-src="media/tasks/rdm_right_52.gif" alt="Field of moving white dots." height="560"></p>
+</section>
+<section id="right-52-coherence" class="slide level2 center">
+<h2>Right, 52 % coherence</h2>
+</section>
+<section id="which-way-3" class="slide level2">
+<h2>Which way?</h2>
+<p><img data-src="media/tasks/rdm_left_3.gif" alt="Field of moving white dots." height="560"></p>
+</section>
+<section id="left-3.2-coherence" class="slide level2 center">
+<h2>Left, 3.2 % coherence</h2>
 <div class="footer-note">
-<p>Live <span class="citation" data-cites="newsome1988 britten1992">(<a href="#/references" role="doc-biblioref" onclick="">Newsome and Pare 1988</a>; <a href="#/references" role="doc-biblioref" onclick="">Britten et al. 1992</a>)</span>.</p>
+<p>Random-dot motion <span class="citation" data-cites="newsome1988 britten1992">(<a href="#/references" role="doc-biblioref" onclick="">Newsome and Pare 1988</a>; <a href="#/references" role="doc-biblioref" onclick="">Britten et al. 1992</a>)</span>.</p>
 </div>
+</section>
+<section id="the-drift-diffusion-model" class="slide level2 center">
+<h2>The drift diffusion model</h2>
+<p>Noisy evidence accumulates until it reaches a boundary. <strong>Drift:</strong> how fast evidence accumulates. <strong>Boundary:</strong> how much evidence you require. <span class="citation" data-cites="ratcliff1978 ratcliff2008">(<a href="#/references" role="doc-biblioref" onclick="">Ratcliff 1978</a>; <a href="#/references" role="doc-biblioref" onclick="">Ratcliff and McKoon 2008</a>)</span></p>
 </section>
 <section id="drift-diffusion-one-task-three-levels" class="slide level2">
 <h2>Drift diffusion: one task, three levels</h2>
@@ -316,30 +504,67 @@ Alberto Barradas (Xiutik)
 <div class="footer-note">
 <p>Simulated. A parameter that varies, not a personality type.</p>
 </div>
-</section></section>
-<section>
-<section id="attention" class="title-slide slide level1 center">
-<h1>Attention</h1>
-
 </section>
-<section id="binding-where-is-the-red-t" class="slide level2">
-<h2>Binding: where is the red T?</h2>
-<p><img data-src="media/tasks/binding_search.gif" alt="Find a red T among green Ts, then among green Ts and red Ls." height="520"></p>
-<div class="footer-note">
-<p>Live. Features pop out, conjunctions take attention <span class="citation" data-cites="treisman1980 roskies1999">(<a href="#/references" role="doc-biblioref" onclick="">A. M. Treisman and Gelade 1980</a>; <a href="#/references" role="doc-biblioref" onclick="">Roskies 1999</a>)</span>. Vision language models show binding failures too <span class="citation" data-cites="campbell2024">(<a href="#/references" role="doc-biblioref" onclick="">Campbell et al. 2024</a>)</span>.</p>
+<section id="visual-search" class="slide level2 center">
+<h2>Visual search</h2>
+<p>Find a target among distractors, and watch how long it takes. <strong>Binding:</strong> joining features such as colour and shape into one object. <span class="citation" data-cites="treisman1980 roskies1999">(<a href="#/references" role="doc-biblioref" onclick="">A. M. Treisman and Gelade 1980</a>; <a href="#/references" role="doc-biblioref" onclick="">Roskies 1999</a>)</span></p>
+</section>
+<section id="find-the-red-t" class="slide level2 center">
+<h2>Find the red T</h2>
+<div class="statement">
+<p>Among green Ts. Shout when you have it.</p>
 </div>
 </section>
-<section id="n-back-feel-the-load" class="slide level2">
-<h2>N-back: feel the load</h2>
-<p><img data-src="media/tasks/nback.gif" alt="Letters one at a time, with the matches two letters back tagged." height="520"></p>
-<div class="footer-note">
-<p>Live. Raise a hand on a match <span class="citation" data-cites="kirchner1958 owen2005">(<a href="#/references" role="doc-biblioref" onclick="">Kirchner 1958</a>; <a href="#/references" role="doc-biblioref" onclick="">Owen et al. 2005</a>)</span>. That is all the memory we do tonight.</p>
+<section id="go" class="slide level2">
+<h2>Go</h2>
+<p><img data-src="media/tasks/binding_feature_display.png" alt="A field of letters containing one red T." height="580"></p>
+</section>
+<section id="there" class="slide level2">
+<h2>There</h2>
+<p><img data-src="media/tasks/binding_feature_answer.png" alt="The same field, with a ring around the red T." height="580"></p>
+</section>
+<section id="find-the-red-t-1" class="slide level2 center">
+<h2>Find the red T</h2>
+<div class="statement">
+<p>Among green Ts and red Ls. Shout when you have it.</p>
 </div>
-</section></section>
-<section>
-<section id="consciousness" class="title-slide slide level1 center">
-<h1>Consciousness</h1>
-
+</section>
+<section id="go-1" class="slide level2">
+<h2>Go</h2>
+<p><img data-src="media/tasks/binding_hidden_display.png" alt="A field of letters containing one red T." height="580"></p>
+</section>
+<section id="there-1" class="slide level2">
+<h2>There</h2>
+<p><img data-src="media/tasks/binding_hidden_answer.png" alt="The same field, with a ring around the red T." height="580"></p>
+</section>
+<section id="when-does-it-become-one-thing" class="slide level2 opener" data-background-image="media/tasks/binding_timeline.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>When does it become one thing?</h2>
+</section>
+<section id="n-back" class="slide level2 center">
+<h2>N-back</h2>
+<p>Is this letter the same as the one n back? <strong>Load:</strong> how much you are holding at once. <span class="citation" data-cites="kirchner1958 owen2005">(<a href="#/references" role="doc-biblioref" onclick="">Kirchner 1958</a>; <a href="#/references" role="doc-biblioref" onclick="">Owen et al. 2005</a>)</span></p>
+</section>
+<section id="back-the-stack" class="slide level2">
+<h2>2-back: the stack</h2>
+<p><img data-src="media/tasks/nback_stack2.gif" alt="Letters in sequence as a row. Only the letters still in memory are opaque; older ones fade." height="540"></p>
+<div class="footer-note">
+<p>Raise a hand on a match <span class="citation" data-cites="kirchner1958 owen2005">(<a href="#/references" role="doc-biblioref" onclick="">Kirchner 1958</a>; <a href="#/references" role="doc-biblioref" onclick="">Owen et al. 2005</a>)</span>. Only the opaque letters are in memory.</p>
+</div>
+</section>
+<section id="back-the-stack-1" class="slide level2">
+<h2>3-back: the stack</h2>
+<p><img data-src="media/tasks/nback_stack3.gif" alt="The same with a window of three letters." height="540"></p>
+</section>
+<section id="back-on-your-own" class="slide level2">
+<h2>3-back: on your own</h2>
+<p><img data-src="media/tasks/nback_delayed3.gif" alt="One letter at a time with no stack. Feedback arrives three seconds after a match." height="540"></p>
+<div class="footer-note">
+<p>Feedback comes 3 seconds late. That is all the memory we do tonight.</p>
+</div>
+</section>
+<section id="binocular-rivalry" class="slide level2 center">
+<h2>Binocular rivalry</h2>
+<p>Each eye gets a different image, and what you see alternates while the input stays the same. <strong>Report:</strong> what you say you saw. <strong>Performance:</strong> what you can do with it. <span class="citation" data-cites="blake2002">(<a href="#/references" role="doc-biblioref" onclick="">Blake and Logothetis 2002</a>)</span></p>
 </section>
 <section id="the-same-input-a-different-percept" class="slide level2">
 <h2>The same input, a different percept</h2>
@@ -347,6 +572,16 @@ Alberto Barradas (Xiutik)
 <div class="footer-note">
 <p>Live with glasses. This GIF is simulated <span class="citation" data-cites="blake2002">(<a href="#/references" role="doc-biblioref" onclick="">Blake and Logothetis 2002</a>)</span>. Report vs performance, subject vs object <span class="citation" data-cites="nagel1974 chalmers1995">(<a href="#/references" role="doc-biblioref" onclick="">Nagel 1974</a>; <a href="#/references" role="doc-biblioref" onclick="">Chalmers 1995</a>)</span>.</p>
 </div>
+</section>
+<section id="continuous-flash-suppression" class="slide level2 center">
+<h2>Continuous flash suppression</h2>
+<p>A changing mask in one eye hides a steady image in the other, until it breaks through. <span class="citation" data-cites="tsuchiya2005 stein2011">(<a href="#/references" role="doc-biblioref" onclick="">Tsuchiya and Koch 2005</a>; <a href="#/references" role="doc-biblioref" onclick="">Stein, Hebart, and Sterzer 2011</a>)</span></p>
+</section>
+<section id="blended" class="slide level2">
+<h2>Blended</h2>
+<button class="play" data-gif="media/tasks/cfs_blended.gif" aria-label="Play the blended images. It flashes coloured patterns.">
+<img src="media/tasks/cfs_blended.png" alt="A coloured mask and a red word blended into one image." height="520">
+</button>
 </section>
 <section id="seen-or-not-while-the-screen-stays-the-same" class="slide level2">
 <h2>Seen or not, while the screen stays the same</h2>
@@ -357,58 +592,96 @@ Alberto Barradas (Xiutik)
 <p>Schematic: click to play. Live needs glasses <span class="citation" data-cites="tsuchiya2005 zhu2016">(<a href="#/references" role="doc-biblioref" onclick="">Tsuchiya and Koch 2005</a>; <a href="#/references" role="doc-biblioref" onclick="">Zhu, Drewes, and Melcher 2016</a>)</span>. What it proves about the unconscious is debated <span class="citation" data-cites="moors2017">(<a href="#/references" role="doc-biblioref" onclick="">Moors et al. 2017</a>)</span>.</p>
 </div>
 </section>
-<section id="rival-theories-one-pre-agreed-test" class="slide level2">
-<h2>Rival theories, one pre-agreed test</h2>
-<ul>
-<li>Theories of consciousness differ in which set of things they count as conscious <span class="citation" data-cites="seth2022">(<a href="#/references" role="doc-biblioref" onclick="">Seth and Bayne 2022</a>)</span></li>
-<li>Adversarial collaboration: agree on the prediction before the data <span class="citation" data-cites="cogitate2025">(<a href="#/references" role="doc-biblioref" onclick="">Cogitate Consortium et al. 2025</a>)</span></li>
-<li>The results challenged key tenets of both theories. Then over 100 researchers called one of them untestable <span class="citation" data-cites="klincewicz2025">(<a href="#/references" role="doc-biblioref" onclick="">IIT-Concerned et al. 2025</a>)</span></li>
-<li>Could this be conscious? <span class="citation" data-cites="butlin2023 seth2026">(<a href="#/references" role="doc-biblioref" onclick="">Butlin et al. 2023</a>; <a href="#/references" role="doc-biblioref" onclick="">Seth 2026</a>)</span></li>
-</ul>
-</section></section>
-<section>
-<section id="what-to-do-with-it" class="title-slide slide level1 center">
-<h1>What to do with it</h1>
+<section id="the-stroop-task" class="slide level2 center">
+<h2>The Stroop task</h2>
+<p>Name the colour of the ink. Reading the word gets in the way. <span class="citation" data-cites="stroop1935">(<a href="#/references" role="doc-biblioref" onclick="">Stroop 1935</a>)</span></p>
+</section>
+<section id="language-read-the-colours-aloud" class="slide level2">
+<h2>Language: read the colours aloud</h2>
+<p><img data-src="media/concepts/stroop.svg" alt="Colour words printed in clashing colours." height="600"></p>
+</section>
+<section><section id="intersubjective-platos-ideal-world" class="slide level2">
+<h2>Intersubjective Plato’s Ideal world</h2>
+<p><strong>Intersubjective:</strong> real because minds share it.</p>
+<p>This is the border: past the intersubjective start culture and anthropology, and we stop here on purpose.</p>
+<div class="footer-note">
+<p>It feels like Plato’s realm. It behaves like World 3 <span class="citation" data-cites="popper1972 searle1995 tomasello2005">(<a href="#/references" role="doc-biblioref" onclick="">Popper 1972</a>; <a href="#/references" role="doc-biblioref" onclick="">Searle 1995</a>; <a href="#/references" role="doc-biblioref" onclick="">Tomasello et al. 2005</a>)</span>.</p>
+</div>
+</section><section id="intersubjective-platos-ideal-world-1" class="slide level2 down opener" data-background-image="media/concepts/world3.svg" data-background-size="auto 84%" data-background-color="#0b1020">
+<h2>Intersubjective Plato’s Ideal world</h2>
+<!-- # Outputs to focus on {.opener background-image="media/concepts/theories-sets.svg" background-size="auto 84%" background-color="#0b1020"}
 
-</section>
-<section id="where-was-your-mind-just-now" class="slide level2">
-<h2>Where was your mind just now?</h2>
-<ul>
-<li>Hands up: on the talk, or elsewhere?</li>
-<li>That is experience sampling: thought probes, and you just ran one on yourself</li>
-<li>Default mode: an active network, not idling <span class="citation" data-cites="smallwood2021 menon2023">(<a href="#/references" role="doc-biblioref" onclick="">Smallwood et al. 2021</a>; <a href="#/references" role="doc-biblioref" onclick="">Menon 2023</a>)</span></li>
-<li>People avoid effort <span class="citation" data-cites="kool2010 david2024">(<a href="#/references" role="doc-biblioref" onclick="">Kool et al. 2010</a>; <a href="#/references" role="doc-biblioref" onclick="">David, Vassena, and Bijleveld 2024</a>)</span>. Is mind wandering the path of least resistance? <strong>A question, not a finding</strong></li>
-</ul>
-</section>
-<section id="attention-is-what-we-trade" class="slide level2">
-<h2>Attention is what we trade</h2>
-<div class="grid3">
-<div class="card">
-<p><strong>Yours.</strong> Manage it. Around 30 minutes outside helps a little, on average <span class="citation" data-cites="bell2025">(<a href="#/references" role="doc-biblioref" onclick="">Bell et al. 2025</a>)</span>. Meditation: modest effects, real adverse ones <span class="citation" data-cites="goyal2014 farias2020">(<a href="#/references" role="doc-biblioref" onclick="">Goyal et al. 2014</a>; <a href="#/references" role="doc-biblioref" onclick="">Farias et al. 2020</a>)</span>.</p>
-</div>
-<div class="card v">
-<p><strong>Theirs.</strong> A commodity: cognitive autonomy as a right worth naming <span class="citation" data-cites="simon1971 farahany2023">(<a href="#/references" role="doc-biblioref" onclick="">Simon 1971</a>; <a href="#/references" role="doc-biblioref" onclick="">Farahany 2023</a>)</span>. Plain GPT-4: grades up 48 % with it, down 17 % once it is gone <span class="citation" data-cites="bastani2025">(<a href="#/references" role="doc-biblioref" onclick="">Bastani et al. 2025</a>)</span>.</p>
-</div>
-<div class="card a">
-<p><strong>Ours.</strong> A social resource. Ask, do not infer. Mixed autistic and non-autistic chains lose detail faster than either alone <span class="citation" data-cites="milton2012 crompton2020">(<a href="#/references" role="doc-biblioref" onclick="">Milton 2012</a>; <a href="#/references" role="doc-biblioref" onclick="">Crompton et al. 2020</a>)</span>.</p>
-</div>
-</div>
-</section></section>
-<section>
-<section id="the-border" class="title-slide slide level1 center">
-<h1>The border</h1>
+::: {.footer-note}
+Theories and their sets. Schematic [@seth2022; @cogitate2025; @klincewicz2025; @butlin2023; @seth2026].
+:::
 
-</section>
-<section id="past-here-culture-and-anthropology" class="slide level2">
-<h2>Past here: culture and anthropology</h2>
-<div class="statement">
-<p>It feels like Plato’s realm. It behaves like <strong>World 3</strong>: made by minds, and real for all of us <span class="citation" data-cites="popper1972 searle1995">(<a href="#/references" role="doc-biblioref" onclick="">Popper 1972</a>; <a href="#/references" role="doc-biblioref" onclick="">Searle 1995</a>)</span>.</p>
-</div>
+::: {.notes}
+Adversarial collaboration: rivals agree on the experiment before the data. The results challenged key tenets of both theories. Then over 100 researchers called one of them untestable. Time: 39:00, 1:00.
+::: -->
+<!-- 
+## Attention and Meditation
+
+::: {.footer-note}
+Modest effects, real adverse ones, low evidence on attention [@goyal2014; @farias2020].
+:::
+
+::: {.notes}
+Time: 40:00, 0:45.
+:::
+
+## Attention and Meditation {.down .opener background-image="media/concepts/attention-meditation.svg" background-size="auto 84%" background-color="#0b1020"}
+
+## Where was your mind just now?
+
+Path of least resistance and the default mode network
+
+::: {.footer-note}
+The path of least resistance? A question, not a finding [@raichle2001; @smallwood2021; @kool2010; @david2024].
+:::
+
+::: {.notes}
+Hands up: on the talk, or elsewhere? That is experience sampling, and you just ran one on yourself. Time: 40:45, 1:00. Handoff: If your mind has a path of least resistance, the question is who benefits from where it leads.
+:::
+
+## Where was your mind just now? {.down .opener background-image="media/concepts/dmn.svg" background-size="auto 84%" background-color="#0b1020"} -->
+</section></section>
+<section id="actionable-concepts" class="title-slide slide level1 center">
+<h1>Actionable concepts</h1>
 <ul>
-<li>Language lets us share it <span class="citation" data-cites="tomasello2005">(<a href="#/references" role="doc-biblioref" onclick="">Tomasello et al. 2005</a>)</span></li>
-<li>Isomorphisms: we can now compare the geometry of a model and a brain <span class="citation" data-cites="zada2024">(<a href="#/references" role="doc-biblioref" onclick="">Zada et al. 2024</a>)</span></li>
-<li><strong>Intersubjective</strong> is where we stop, on purpose</li>
+<li>Personal Attention Management</li>
+<li>Attention restoration theory</li>
+<li>Attention as a commodity, and Cognitive Autonomy</li>
+<li>Attention as a social resource in a community</li>
 </ul>
+<p><strong>Cognitive autonomy:</strong> <!-- deciding for yourself what attend to. --> <!-- 
+::: {.footer-note}
+About 30 minutes outside helps a little, on average [@bell2025]. [@simon1971; @farahany2023; @bastani2025; @milton2012; @crompton2020]
+::: --></p>
+<!-- ## Actionable concepts {.down .opener background-image="media/concepts/attention-trade.svg" background-size="auto 84%" background-color="#0b1020"} -->
+</section>
+<section id="regulation" class="slide level2">
+<h2>Regulation</h2>
+<p>Cognitive Dissonance, Emotional Regulation, Metacognition, and Cognitive Flexibility <!-- 
+::: {.footer-note}
+The classic dissonance design failed across 39 labs [@vaidis2024]. [@gross1998; @flavell1979; @diamond2013]
+:::
+
+::: {.notes}
+Time: 43:30, 0:30.
+:::
+
+## Regulation {.down .opener background-image="media/concepts/regulate.svg" background-size="auto 84%" background-color="#0b1020"} --> <!-- 
+## The inference problem
+
+![](media/concepts/bayes.svg){fig-alt="Prior times likelihood gives posterior, as curves, linked to the Mooney images." height="600"}
+
+::: {.footer-note}
+Illustrative [@knill2004; @friston2010; @tenenbaum2011].
+:::
+
+::: {.notes}
+Time: 44:00, 0:30. Handoff: All of this has been inference, including this talk: you saw blobs, then you could not unsee the cat.
+::: --></p>
 </section>
 <section id="the-glossary-we-now-share" class="slide level2">
 <h2>The glossary we now share</h2>
@@ -423,10 +696,7 @@ Alberto Barradas (Xiutik)
 <p>binding · load · report vs performance · cognitive autonomy · intersubjective</p>
 </div>
 </div>
-<div class="muted">
-<p>Inference closes the loop: your brain infers causes from signals, and we infer your brain from behaviour <span class="citation" data-cites="friston2010 tenenbaum2011">(<a href="#/references" role="doc-biblioref" onclick="">Friston 2010</a>; <a href="#/references" role="doc-biblioref" onclick="">Tenenbaum et al. 2011</a>)</span>.</p>
-</div>
-<p><a href="media/differences/index.html">Differences, one figure each</a> · <a href="media/viz/index.html">References by area</a> · <a href="media/references.bib">BibTeX</a></p>
+<p><a href="media/differences/index.html">Differences, one figure each</a> · <a href="media/viz/index.html">References by area</a> · <a href="media/references.bib">BibTeX</a> · <a href="https://media.ccc.de/v/realraum-variational-autoencorders-the-cognitive-scientist-s-favorite-deep-learning-tool">Last talk</a> · <a href="https://www.youtube.com/watch?v=zPkRyTLjYHI">Noah Goodman</a></p>
 </section>
 <section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
@@ -434,32 +704,23 @@ Alberto Barradas (Xiutik)
 <div id="ref-anderson2019" class="csl-entry" role="listitem">
 Anderson, John R., Shawn Betts, Daniel Bothell, Ryan Hope, and Christian Lebiere. 2019. <span>“<span class="nocase">Learning rapid and precise skills</span>.”</span> <em>Psychological Review</em> 126 (5): 727–60. <a href="https://doi.org/10.1037/rev0000152">https://doi.org/10.1037/rev0000152</a>.
 </div>
+<div id="ref-anderson2004" class="csl-entry" role="listitem">
+Anderson, John R., Daniel Bothell, Michael D. Byrne, Scott Douglass, Christian Lebiere, and Yulin Qin. 2004. <span>“<span class="nocase">An Integrated Theory of the Mind</span>.”</span> <em>Psychological Review</em> 111 (4): 1036–60. <a href="https://doi.org/10.1037/0033-295x.111.4.1036">https://doi.org/10.1037/0033-295x.111.4.1036</a>.
+</div>
+<div id="ref-attwell2001" class="csl-entry" role="listitem">
+Attwell, David, and Simon B. Laughlin. 2001. <span>“<span class="nocase">An Energy Budget for Signaling in the Grey Matter of the Brain</span>.”</span> <em>Journal of Cerebral Blood Flow &amp; Metabolism</em> 21 (10): 1133–45. <a href="https://doi.org/10.1097/00004647-200110000-00001">https://doi.org/10.1097/00004647-200110000-00001</a>.
+</div>
 <div id="ref-barrett2017" class="csl-entry" role="listitem">
 Barrett, Lisa Feldman. 2017. <span>“<span class="nocase">The theory of constructed emotion: an active inference account of interoception and categorization</span>.”</span> <em>Social Cognitive and Affective Neuroscience</em>, nsw154. <a href="https://doi.org/10.1093/scan/nsw154">https://doi.org/10.1093/scan/nsw154</a>.
-</div>
-<div id="ref-bastani2025" class="csl-entry" role="listitem">
-Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2025. <span>“<span class="nocase">Generative AI without guardrails can harm learning: Evidence from high school mathematics</span>.”</span> <em>Proceedings of the National Academy of Sciences</em> 122 (26). <a href="https://doi.org/10.1073/pnas.2422633122">https://doi.org/10.1073/pnas.2422633122</a>.
-</div>
-<div id="ref-bell2025" class="csl-entry" role="listitem">
-Bell, Cameron N., Rebecca St George, Cynthia Honan, Lachlan J. Bell, Alex T. W. Jolly, and Allison Matthews. 2025. <span>“<span class="nocase">The relationship between nature exposures and attention restoration, as moderated by exposure duration: A systematic review and meta-analysis</span>.”</span> <em>Journal of Environmental Psychology</em> 104: 102632. <a href="https://doi.org/10.1016/j.jenvp.2025.102632">https://doi.org/10.1016/j.jenvp.2025.102632</a>.
 </div>
 <div id="ref-bengio2013" class="csl-entry" role="listitem">
 Bengio, Y., A. Courville, and P. Vincent. 2013. <span>“<span class="nocase">Representation Learning: A Review and New Perspectives</span>.”</span> <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em> 35 (8): 1798–828. <a href="https://doi.org/10.1109/tpami.2013.50">https://doi.org/10.1109/tpami.2013.50</a>.
 </div>
-<div id="ref-bishop1967" class="csl-entry" role="listitem">
-Bishop, Errett. 1967. <em><span class="nocase">Foundations of Constructive Analysis</span></em>. McGraw-Hill.
-</div>
 <div id="ref-blake2002" class="csl-entry" role="listitem">
 Blake, Randolph, and Nikos K. Logothetis. 2002. <span>“<span class="nocase">Visual competition</span>.”</span> <em>Nature Reviews Neuroscience</em> 3 (1): 13–21. <a href="https://doi.org/10.1038/nrn701">https://doi.org/10.1038/nrn701</a>.
 </div>
-<div id="ref-borsboom2004" class="csl-entry" role="listitem">
-Borsboom, Denny, Gideon J. Mellenbergh, and Jaap van Heerden. 2004. <span>“<span class="nocase">The Concept of Validity</span>.”</span> <em>Psychological Review</em> 111 (4): 1061–71. <a href="https://doi.org/10.1037/0033-295x.111.4.1061">https://doi.org/10.1037/0033-295x.111.4.1061</a>.
-</div>
 <div id="ref-britten1992" class="csl-entry" role="listitem">
 Britten, KH, MN Shadlen, WT Newsome, and JA Movshon. 1992. <span>“<span class="nocase">The analysis of visual motion: a comparison of neuronal and psychophysical performance</span>.”</span> <em>The Journal of Neuroscience</em> 12 (12): 4745–65. <a href="https://doi.org/10.1523/jneurosci.12-12-04745.1992">https://doi.org/10.1523/jneurosci.12-12-04745.1992</a>.
-</div>
-<div id="ref-butlin2023" class="csl-entry" role="listitem">
-Butlin, Patrick, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, et al. 2023. <span>“<span class="nocase">Consciousness in Artificial Intelligence: Insights from the Science of Consciousness</span>.”</span> arXiv. <a href="https://doi.org/10.48550/arxiv.2308.08708">https://doi.org/10.48550/arxiv.2308.08708</a>.
 </div>
 <div id="ref-campbell2024" class="csl-entry" role="listitem">
 Campbell, Declan, Sunayana Rane, Tyler Giallanza, Nicolò De Sabbata, Kia Ghods, Amogh Joshi, Alexander Ku, et al. 2024. <span>“<span class="nocase">Understanding the Limits of Vision Language Models Through the Lens of the Binding Problem</span>.”</span> In <em>Advances in Neural Information Processing Systems 37</em>, 113436–60. <a href="https://doi.org/10.52202/079017-3604">https://doi.org/10.52202/079017-3604</a>.
@@ -470,20 +731,8 @@ Chalmers, David J. 1995. <span>“<span class="nocase">Facing up to the problem 
 <div id="ref-cheng2013" class="csl-entry" role="listitem">
 Cheng, Cecilia, Shu Fai Cheung, Jasmine Hin-man Chio, and Man-Pui Sally Chan. 2013. <span>“<span class="nocase">Cultural meaning of perceived control: A meta-analysis of locus of control and psychological symptoms across 18 cultural regions</span>.”</span> <em>Psychological Bulletin</em> 139 (1): 152–88. <a href="https://doi.org/10.1037/a0028596">https://doi.org/10.1037/a0028596</a>.
 </div>
-<div id="ref-cogitate2025" class="csl-entry" role="listitem">
-Cogitate Consortium, Oscar Ferrante, Urszula Gorska-Klimowska, Simon Henin, Rony Hirschhorn, Aya Khalaf, Alex Lepauvre, et al. 2025. <span>“<span class="nocase">Adversarial testing of global neuronal workspace and integrated information theories of consciousness</span>.”</span> <em>Nature</em> 642 (8066): 133–42. <a href="https://doi.org/10.1038/s41586-025-08888-1">https://doi.org/10.1038/s41586-025-08888-1</a>.
-</div>
-<div id="ref-crompton2020" class="csl-entry" role="listitem">
-Crompton, Catherine J, Danielle Ropar, Claire VM Evans-Williams, Emma G Flynn, and Sue Fletcher-Watson. 2020. <span>“<span class="nocase">Autistic peer-to-peer information transfer is highly effective</span>.”</span> <em>Autism</em> 24 (7): 1704–12. <a href="https://doi.org/10.1177/1362361320919286">https://doi.org/10.1177/1362361320919286</a>.
-</div>
-<div id="ref-cronbach1955" class="csl-entry" role="listitem">
-Cronbach, Lee J., and Paul E. Meehl. 1955. <span>“<span class="nocase">Construct validity in psychological tests</span>.”</span> <em>Psychological Bulletin</em> 52 (4): 281–302. <a href="https://doi.org/10.1037/h0040957">https://doi.org/10.1037/h0040957</a>.
-</div>
-<div id="ref-david2024" class="csl-entry" role="listitem">
-David, Louise, Eliana Vassena, and Erik Bijleveld. 2024. <span>“<span class="nocase">The unpleasantness of thinking: A meta-analytic review of the association between mental effort and negative affect</span>.”</span> <em>Psychological Bulletin</em>. <a href="https://doi.org/10.1037/bul0000443">https://doi.org/10.1037/bul0000443</a>.
-</div>
-<div id="ref-desmedt2018" class="csl-entry" role="listitem">
-Desmedt, Olivier, Olivier Luminet, and Olivier Corneille. 2018. <span>“<span class="nocase">The heartbeat counting task largely involves non-interoceptive processes: Evidence from both the original and an adapted counting task</span>.”</span> <em>Biological Psychology</em> 138: 185–88. <a href="https://doi.org/10.1016/j.biopsycho.2018.09.004">https://doi.org/10.1016/j.biopsycho.2018.09.004</a>.
+<div id="ref-craig2002" class="csl-entry" role="listitem">
+Craig, A. D. 2002. <span>“<span class="nocase">How do you feel? Interoception: the sense of the physiological condition of the body</span>.”</span> <em>Nature Reviews Neuroscience</em> 3: 655–66. <a href="https://doi.org/10.1038/nrn894">https://doi.org/10.1038/nrn894</a>.
 </div>
 <div id="ref-doya2000" class="csl-entry" role="listitem">
 Doya, K. 2000. <span>“<span class="nocase">Complementary roles of basal ganglia and cerebellum in learning and motor control</span>.”</span> <em>Current Opinion in Neurobiology</em> 10 (6): 732–39. <a href="https://doi.org/10.1016/s0959-4388(00)00153-7">https://doi.org/10.1016/s0959-4388(00)00153-7</a>.
@@ -494,32 +743,17 @@ Dwyer, Patrick, Andre Sillas, Clifford D. Saron, and Susan M. Rivera. 2025. <spa
 <div id="ref-eisenberg2019" class="csl-entry" role="listitem">
 Eisenberg, Ian W., Patrick G. Bissett, A. Zeynep Enkavi, Jamie Li, David P. MacKinnon, Lisa A. Marsch, and Russell A. Poldrack. 2019. <span>“<span class="nocase">Uncovering the structure of self-regulation through data-driven ontology discovery</span>.”</span> <em>Nature Communications</em> 10 (1). <a href="https://doi.org/10.1038/s41467-019-10301-1">https://doi.org/10.1038/s41467-019-10301-1</a>.
 </div>
-<div id="ref-farahany2023" class="csl-entry" role="listitem">
-Farahany, Nita A. 2023. <em><span class="nocase">The Battle for Your Brain</span></em>. St. Martin’s Press.
-</div>
-<div id="ref-farias2020" class="csl-entry" role="listitem">
-Farias, M., E. Maraldi, K. C. Wallenkampf, and G. Lucchetti. 2020. <span>“<span class="nocase">Adverse events in meditation practices and meditation‐based therapies: a systematic review</span>.”</span> <em>Acta Psychiatrica Scandinavica</em> 142 (5): 374–93. <a href="https://doi.org/10.1111/acps.13225">https://doi.org/10.1111/acps.13225</a>.
-</div>
 <div id="ref-fodor1988" class="csl-entry" role="listitem">
 Fodor, Jerry A., and Zenon W. Pylyshyn. 1988. <span>“<span class="nocase">Connectionism and cognitive architecture: A critical analysis</span>.”</span> <em>Cognition</em> 28 (1-2): 3–71. <a href="https://doi.org/10.1016/0010-0277(88)90031-5">https://doi.org/10.1016/0010-0277(88)90031-5</a>.
-</div>
-<div id="ref-friston2010" class="csl-entry" role="listitem">
-Friston, Karl. 2010. <span>“<span class="nocase">The free-energy principle: a unified brain theory?</span>”</span> <em>Nature Reviews Neuroscience</em> 11 (2): 127–38. <a href="https://doi.org/10.1038/nrn2787">https://doi.org/10.1038/nrn2787</a>.
 </div>
 <div id="ref-garau2023" class="csl-entry" role="listitem">
 Garau, Valeria, Aja Louise Murray, Richard Woods, Nick Chown, Sonny Hallett, Fergus Murray, Rebecca Wood, and Sue Fletcher-Watson. 2023. <span>“<span class="nocase">Development and Validation of a Novel Self-Report Measure of Monotropism in Autistic and Non-Autistic People: The Monotropism Questionnaire</span>.”</span> Center for Open Science. <a href="https://doi.org/10.31219/osf.io/ft73y">https://doi.org/10.31219/osf.io/ft73y</a>.
 </div>
-<div id="ref-garfinkel2015" class="csl-entry" role="listitem">
-Garfinkel, Sarah N., Anil K. Seth, Adam B. Barrett, Keisuke Suzuki, and Hugo D. Critchley. 2015. <span>“<span class="nocase">Knowing your own heart: Distinguishing interoceptive accuracy from interoceptive awareness</span>.”</span> <em>Biological Psychology</em> 104: 65–74. <a href="https://doi.org/10.1016/j.biopsycho.2014.11.004">https://doi.org/10.1016/j.biopsycho.2014.11.004</a>.
-</div>
-<div id="ref-goyal2014" class="csl-entry" role="listitem">
-Goyal, Madhav, Sonal Singh, Erica M. S. Sibinga, Neda F. Gould, Anastasia Rowland-Seymour, Ritu Sharma, Zackary Berger, et al. 2014. <span>“<span class="nocase">Meditation Programs for Psychological Stress and Well-being: A Systematic Review and Meta-analysis</span>.”</span> <em>JAMA Internal Medicine</em> 174 (3): 357. <a href="https://doi.org/10.1001/jamainternmed.2013.13018">https://doi.org/10.1001/jamainternmed.2013.13018</a>.
-</div>
-<div id="ref-klincewicz2025" class="csl-entry" role="listitem">
-IIT-Concerned, Derek H. Arnold, Mark G. Baxter, Tristan A. Bekinschtein, Yoshua Bengio, James W. Bisley, Jacob Browning, et al. 2025. <span>“<span class="nocase">What makes a theory of consciousness unscientific?</span>”</span> <em>Nature Neuroscience</em> 28 (4): 689–93. <a href="https://doi.org/10.1038/s41593-025-01881-x">https://doi.org/10.1038/s41593-025-01881-x</a>.
-</div>
 <div id="ref-judge2002" class="csl-entry" role="listitem">
 Judge, Timothy A., Amir Erez, Joyce E. Bono, and Carl J. Thoresen. 2002. <span>“<span class="nocase">Are measures of self-esteem, neuroticism, locus of control, and generalized self-efficacy indicators of a common core construct?</span>”</span> <em>Journal of Personality and Social Psychology</em> 83 (3): 693–710. <a href="https://doi.org/10.1037/0022-3514.83.3.693">https://doi.org/10.1037/0022-3514.83.3.693</a>.
+</div>
+<div id="ref-kanwisher1998" class="csl-entry" role="listitem">
+Kanwisher, Nancy, Frank Tong, and Ken Nakayama. 1998. <span>“<span class="nocase">The effect of face inversion on the human fusiform face area</span>.”</span> <em>Cognition</em> 68 (1): B1–11. <a href="https://doi.org/10.1016/s0010-0277(98)00035-3">https://doi.org/10.1016/s0010-0277(98)00035-3</a>.
 </div>
 <div id="ref-kingma2013" class="csl-entry" role="listitem">
 Kingma, Diederik P, and Max Welling. 2013. <span>“<span>Auto-Encoding Variational Bayes</span>.”</span> arXiv. <a href="https://doi.org/10.48550/arxiv.1312.6114">https://doi.org/10.48550/arxiv.1312.6114</a>.
@@ -530,23 +764,17 @@ Kirchner, Wayne K. 1958. <span>“<span class="nocase">Age differences in short-
 <div id="ref-knill2004" class="csl-entry" role="listitem">
 Knill, David C., and Alexandre Pouget. 2004. <span>“<span class="nocase">The Bayesian brain: the role of uncertainty in neural coding and computation</span>.”</span> <em>Trends in Neurosciences</em> 27 (12): 712–19. <a href="https://doi.org/10.1016/j.tins.2004.10.007">https://doi.org/10.1016/j.tins.2004.10.007</a>.
 </div>
-<div id="ref-kool2010" class="csl-entry" role="listitem">
-Kool, Wouter, Joseph T. McGuire, Zev B. Rosen, and Matthew M. Botvinick. 2010. <span>“<span class="nocase">Decision making and the avoidance of cognitive demand</span>.”</span> <em>Journal of Experimental Psychology: General</em> 139 (4): 665–82. <a href="https://doi.org/10.1037/a0020198">https://doi.org/10.1037/a0020198</a>.
-</div>
 <div id="ref-lake2023" class="csl-entry" role="listitem">
 Lake, Brenden M., and Marco Baroni. 2023. <span>“<span class="nocase">Human-like systematic generalization through a meta-learning neural network</span>.”</span> <em>Nature</em> 623 (7985): 115–21. <a href="https://doi.org/10.1038/s41586-023-06668-3">https://doi.org/10.1038/s41586-023-06668-3</a>.
 </div>
 <div id="ref-latimer2015" class="csl-entry" role="listitem">
 Latimer, Kenneth W., Jacob L. Yates, Miriam L. R. Meister, Alexander C. Huk, and Jonathan W. Pillow. 2015. <span>“<span class="nocase">Single-trial spike trains in parietal cortex reveal discrete steps during decision-making</span>.”</span> <em>Science</em> 349 (6244): 184–87. <a href="https://doi.org/10.1126/science.aaa4056">https://doi.org/10.1126/science.aaa4056</a>.
 </div>
+<div id="ref-latinus2005" class="csl-entry" role="listitem">
+Latinus, Marianne, and Margot J. Taylor. 2005. <span>“<span class="nocase">Holistic Processing of Faces: Learning Effects with Mooney Faces</span>.”</span> <em>Journal of Cognitive Neuroscience</em> 17 (8): 1316–27. <a href="https://doi.org/10.1162/0898929055002490">https://doi.org/10.1162/0898929055002490</a>.
+</div>
 <div id="ref-marr1982" class="csl-entry" role="listitem">
 Marr, David. 1982. <em><span class="nocase">Vision: A Computational Investigation into the Human Representation and Processing of Visual Information</span></em>. The MIT Press. <a href="https://doi.org/10.7551/mitpress/9780262514620.001.0001">https://doi.org/10.7551/mitpress/9780262514620.001.0001</a>.
-</div>
-<div id="ref-menon2023" class="csl-entry" role="listitem">
-Menon, Vinod. 2023. <span>“<span class="nocase">20 years of the default mode network: A review and synthesis</span>.”</span> <em>Neuron</em> 111 (16): 2469–87. <a href="https://doi.org/10.1016/j.neuron.2023.04.023">https://doi.org/10.1016/j.neuron.2023.04.023</a>.
-</div>
-<div id="ref-milton2012" class="csl-entry" role="listitem">
-Milton, Damian E. M. 2012. <span>“<span class="nocase">On the ontological status of autism: the <span>‘double empathy problem’</span></span>.”</span> <em>Disability &amp; Society</em> 27 (6): 883–87. <a href="https://doi.org/10.1080/09687599.2012.710008">https://doi.org/10.1080/09687599.2012.710008</a>.
 </div>
 <div id="ref-mooney1957" class="csl-entry" role="listitem">
 Mooney, Craig M. 1957. <span>“<span class="nocase">Age in the development of closure ability in children</span>.”</span> <em>Canadian Journal of Psychology / Revue Canadienne de Psychologie</em> 11 (4): 219–26. <a href="https://doi.org/10.1037/h0083717">https://doi.org/10.1037/h0083717</a>.
@@ -572,6 +800,9 @@ Popper, Karl R. 1972. <em><span>Objective Knowledge: An Evolutionary Approach</s
 <div id="ref-ratcliff1978" class="csl-entry" role="listitem">
 Ratcliff, Roger. 1978. <span>“<span class="nocase">A theory of memory retrieval</span>.”</span> <em>Psychological Review</em> 85 (2): 59–108. <a href="https://doi.org/10.1037/0033-295x.85.2.59">https://doi.org/10.1037/0033-295x.85.2.59</a>.
 </div>
+<div id="ref-ratcliff2008" class="csl-entry" role="listitem">
+Ratcliff, Roger, and Gail McKoon. 2008. <span>“<span class="nocase">The Diffusion Decision Model: Theory and Data for Two-Choice Decision Tasks</span>.”</span> <em>Neural Computation</em> 20 (4): 873–922. <a href="https://doi.org/10.1162/neco.2008.12-06-420">https://doi.org/10.1162/neco.2008.12-06-420</a>.
+</div>
 <div id="ref-rensink1997" class="csl-entry" role="listitem">
 Rensink, Ronald A., J. Kevin O’Regan, and James J. Clark. 1997. <span>“<span class="nocase">To See or not to See: The Need for Attention to Perceive Changes in Scenes</span>.”</span> <em>Psychological Science</em> 8 (5): 368–73. <a href="https://doi.org/10.1111/j.1467-9280.1997.tb00427.x">https://doi.org/10.1111/j.1467-9280.1997.tb00427.x</a>.
 </div>
@@ -596,29 +827,26 @@ Searle, John R. 1995. <em><span class="nocase">The Construction of Social Realit
 <div id="ref-sennesh2022" class="csl-entry" role="listitem">
 Sennesh, Eli, Jordan Theriault, Dana Brooks, Jan-Willem van de Meent, Lisa Feldman Barrett, and Karen S. Quigley. 2022. <span>“<span class="nocase">Interoception as modeling, allostasis as control</span>.”</span> <em>Biological Psychology</em> 167: 108242. <a href="https://doi.org/10.1016/j.biopsycho.2021.108242">https://doi.org/10.1016/j.biopsycho.2021.108242</a>.
 </div>
-<div id="ref-seth2026" class="csl-entry" role="listitem">
-Seth, Anil K. 2026. <span>“<span class="nocase">Conscious artificial intelligence and biological naturalism</span>.”</span> <em>Behavioral and Brain Sciences</em> 49. <a href="https://doi.org/10.1017/s0140525x25000032">https://doi.org/10.1017/s0140525x25000032</a>.
-</div>
-<div id="ref-seth2022" class="csl-entry" role="listitem">
-Seth, Anil K., and Tim Bayne. 2022. <span>“<span class="nocase">Theories of consciousness</span>.”</span> <em>Nature Reviews Neuroscience</em> 23 (7): 439–52. <a href="https://doi.org/10.1038/s41583-022-00587-4">https://doi.org/10.1038/s41583-022-00587-4</a>.
+<div id="ref-seth2013" class="csl-entry" role="listitem">
+Seth, Anil K. 2013. <span>“<span class="nocase">Interoceptive inference, emotion, and the embodied self</span>.”</span> <em>Trends in Cognitive Sciences</em> 17 (11): 565–73. <a href="https://doi.org/10.1016/j.tics.2013.09.007">https://doi.org/10.1016/j.tics.2013.09.007</a>.
 </div>
 <div id="ref-shadlen2001" class="csl-entry" role="listitem">
 Shadlen, Michael N., and William T. Newsome. 2001. <span>“<span class="nocase">Neural Basis of a Perceptual Decision in the Parietal Cortex (Area LIP) of the Rhesus Monkey</span>.”</span> <em>Journal of Neurophysiology</em> 86 (4): 1916–36. <a href="https://doi.org/10.1152/jn.2001.86.4.1916">https://doi.org/10.1152/jn.2001.86.4.1916</a>.
 </div>
-<div id="ref-simon1971" class="csl-entry" role="listitem">
-Simon, Herbert A. 1971. <span>“<span class="nocase">Designing Organizations for an Information-Rich World</span>.”</span> In <em>Computers, Communications, and the Public Interest</em>, edited by Martin Greenberger. Johns Hopkins Press.
-</div>
-<div id="ref-smallwood2021" class="csl-entry" role="listitem">
-Smallwood, Jonathan, Boris C. Bernhardt, Robert Leech, Danilo Bzdok, Elizabeth Jefferies, and Daniel S. Margulies. 2021. <span>“<span class="nocase">The default mode network in cognition: a topographical perspective</span>.”</span> <em>Nature Reviews Neuroscience</em> 22 (8): 503–13. <a href="https://doi.org/10.1038/s41583-021-00474-4">https://doi.org/10.1038/s41583-021-00474-4</a>.
+<div id="ref-simons1997" class="csl-entry" role="listitem">
+Simons, Daniel J., and Daniel T. Levin. 1997. <span>“<span class="nocase">Change blindness</span>.”</span> <em>Trends in Cognitive Sciences</em> 1 (7): 261–67. <a href="https://doi.org/10.1016/s1364-6613(97)01080-2">https://doi.org/10.1016/s1364-6613(97)01080-2</a>.
 </div>
 <div id="ref-squire2004" class="csl-entry" role="listitem">
 Squire, Larry R. 2004. <span>“<span class="nocase">Memory systems of the brain: A brief history and current perspective</span>.”</span> <em>Neurobiology of Learning and Memory</em> 82 (3): 171–77. <a href="https://doi.org/10.1016/j.nlm.2004.06.005">https://doi.org/10.1016/j.nlm.2004.06.005</a>.
 </div>
+<div id="ref-stein2011" class="csl-entry" role="listitem">
+Stein, Timo, Martin N. Hebart, and Philipp Sterzer. 2011. <span>“<span class="nocase">Breaking Continuous Flash Suppression: A New Measure of Unconscious Processing during Interocular Suppression?</span>”</span> <em>Frontiers in Human Neuroscience</em> 5. <a href="https://doi.org/10.3389/fnhum.2011.00167">https://doi.org/10.3389/fnhum.2011.00167</a>.
+</div>
 <div id="ref-steinemann2024" class="csl-entry" role="listitem">
 Steinemann, Natalie, Gabriel M Stine, Eric Trautmann, Ariel Zylberberg, Daniel M Wolpert, and Michael N Shadlen. 2024. <span>“<span class="nocase">Direct observation of the neural computations underlying a single decision</span>.”</span> <em>eLife</em> 12. <a href="https://doi.org/10.7554/elife.90859.3">https://doi.org/10.7554/elife.90859.3</a>.
 </div>
-<div id="ref-tenenbaum2011" class="csl-entry" role="listitem">
-Tenenbaum, Joshua B., Charles Kemp, Thomas L. Griffiths, and Noah D. Goodman. 2011. <span>“<span class="nocase">How to Grow a Mind: Statistics, Structure, and Abstraction</span>.”</span> <em>Science</em> 331 (6022): 1279–85. <a href="https://doi.org/10.1126/science.1192788">https://doi.org/10.1126/science.1192788</a>.
+<div id="ref-stroop1935" class="csl-entry" role="listitem">
+Stroop, J. Ridley. 1935. <span>“<span class="nocase">Studies of interference in serial verbal reactions</span>.”</span> <em>Journal of Experimental Psychology</em> 18 (6): 643–62. <a href="https://doi.org/10.1037/h0054651">https://doi.org/10.1037/h0054651</a>.
 </div>
 <div id="ref-tomasello2005" class="csl-entry" role="listitem">
 Tomasello, Michael, Malinda Carpenter, Josep Call, Tanya Behne, and Henrike Moll. 2005. <span>“<span class="nocase">Understanding and sharing intentions: The origins of cultural cognition</span>.”</span> <em>Behavioral and Brain Sciences</em> 28 (5): 675–91. <a href="https://doi.org/10.1017/s0140525x05000129">https://doi.org/10.1017/s0140525x05000129</a>.
@@ -632,17 +860,8 @@ Treisman, Anne, and Hilary Schmidt. 1982. <span>“<span class="nocase">Illusory
 <div id="ref-tsuchiya2005" class="csl-entry" role="listitem">
 Tsuchiya, Naotsugu, and Christof Koch. 2005. <span>“<span class="nocase">Continuous flash suppression reduces negative afterimages</span>.”</span> <em>Nature Neuroscience</em> 8 (8): 1096–1101. <a href="https://doi.org/10.1038/nn1500">https://doi.org/10.1038/nn1500</a>.
 </div>
-<div id="ref-vaidis2024" class="csl-entry" role="listitem">
-Vaidis, David C., Willem W. A. Sleegers, Florian van Leeuwen, Kenneth G. DeMarree, Bjørn Sætrevik, Robert M. Ross, Kathleen Schmidt, et al. 2024. <span>“<span class="nocase">A Multilab Replication of the Induced-Compliance Paradigm of Cognitive Dissonance</span>.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 7 (1). <a href="https://doi.org/10.1177/25152459231213375">https://doi.org/10.1177/25152459231213375</a>.
-</div>
-<div id="ref-wadler2015" class="csl-entry" role="listitem">
-Wadler, Philip. 2015. <span>“<span class="nocase">Propositions as types</span>.”</span> <em>Communications of the ACM</em> 58 (12): 75–84. <a href="https://doi.org/10.1145/2699407">https://doi.org/10.1145/2699407</a>.
-</div>
 <div id="ref-wulff2025" class="csl-entry" role="listitem">
 Wulff, Dirk U., and Rui Mata. 2025. <span>“<span class="nocase">Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement</span>.”</span> <em>Nature Human Behaviour</em> 9 (5): 944–54. <a href="https://doi.org/10.1038/s41562-024-02089-y">https://doi.org/10.1038/s41562-024-02089-y</a>.
-</div>
-<div id="ref-zada2024" class="csl-entry" role="listitem">
-Zada, Zaid, Ariel Goldstein, Sebastian Michelmann, Erez Simony, Amy Price, Liat Hasenfratz, Emily Barham, et al. 2024. <span>“<span class="nocase">A shared model-based linguistic space for transmitting our thoughts from brain to brain in natural conversations</span>.”</span> <em>Neuron</em> 112 (18): 3211–3222.e5. <a href="https://doi.org/10.1016/j.neuron.2024.06.025">https://doi.org/10.1016/j.neuron.2024.06.025</a>.
 </div>
 <div id="ref-zhu2016" class="csl-entry" role="listitem">
 Zhu, Weina, Jan Drewes, and David Melcher. 2016. <span>“<span class="nocase">Time for Awareness: The Influence of Temporal Properties of the Mask on Continuous Flash Suppression Effectiveness</span>.”</span> <em>PLOS ONE</em> 11 (7): e0159206. <a href="https://doi.org/10.1371/journal.pone.0159206">https://doi.org/10.1371/journal.pone.0159206</a>.
@@ -652,7 +871,7 @@ Zhu, Weina, Jan Drewes, and David Melcher. 2016. <span>“<span class="nocase">T
 <p>Photos in the tasks: scikit-image sample data, CC0 or public domain.</p>
 </div>
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -749,7 +968,7 @@ Zhu, Weina, Jan Drewes, and David Melcher. 2016. <span>“<span class="nocase">T
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'linear',
+        navigationMode: 'default',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -850,6 +1069,12 @@ Zhu, Weina, Jan Drewes, and David Melcher. 2016. <span>“<span class="nocase">T
       });
     </script>
     <script>
+    function restartGifs(slide) {
+      slide.querySelectorAll("img").forEach(function (image) {
+        var path = image.src.split("?")[0];
+        if (path.endsWith(".gif")) image.src = path + "?r=" + Date.now();
+      });
+    }
     document.querySelectorAll("button.play").forEach(function (button) {
       var image = button.querySelector("img"), poster = image.src;
       button.addEventListener("click", function () {
@@ -857,8 +1082,10 @@ Zhu, Weina, Jan Drewes, and David Melcher. 2016. <span>“<span class="nocase">T
         image.src = playing ? button.dataset.gif : poster;
       });
     });
-    Reveal.on("slidechanged", function () {
+    Reveal.on("ready", function (event) { restartGifs(event.currentSlide); });
+    Reveal.on("slidechanged", function (event) {
       document.querySelectorAll("button.play.playing").forEach(function (button) { button.click(); });
+      restartGifs(event.currentSlide);
     });
     </script>
     <script id="quarto-html-after-body" type="application/javascript">

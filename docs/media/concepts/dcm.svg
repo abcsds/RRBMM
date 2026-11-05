@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Diagram of the stance: dialectical constructivist materialism</title>
+<desc id="d">Diagram with materialism as the ground, a dialectical loop between subject and object standing on it, and constructivism as what the loop builds; marked as our stance.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="1020" y="30" width="220" height="60" rx="12" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<text x="1130.0" y="70.5" font-size="30" fill="#ffcf6f" text-anchor="middle" font-weight="700">our stance</text>
+<rect x="70" y="590" width="1140" height="130" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="5"/>
+<text x="640.0" y="645.0" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">Materialism</text>
+<text x="640.0" y="695.0" font-size="32" fill="#e7ecf5" text-anchor="middle">it all runs on physics and metabolism</text>
+<circle cx="250.0" cy="360.0" r="95" fill="#1b2f46" stroke="#6fd3ff" stroke-width="5"/>
+<circle cx="650.0" cy="360.0" r="95" fill="#2a2148" stroke="#b48cff" stroke-width="5"/>
+<text x="250.0" y="372.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">Subject</text>
+<text x="650.0" y="372.0" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">Object</text>
+<path d="M310 285 C 390 170, 510 170, 588 282" fill="none" stroke="#e7ecf5" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="588.0,282.0 568.8,271.3 584.1,260.4" fill="#e7ecf5"/>
+<path d="M590 435 C 510 550, 390 550, 312 438" fill="none" stroke="#e7ecf5" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="312.0,438.0 331.2,448.7 315.9,459.6" fill="#e7ecf5"/>
+<text x="450.0" y="180.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Dialectical</text>
+<text x="450.0" y="370.0" font-size="28" fill="#e7ecf5" text-anchor="middle">each keeps</text>
+<text x="450.0" y="403.6" font-size="28" fill="#e7ecf5" text-anchor="middle">reshaping</text>
+<text x="450.0" y="437.2" font-size="28" fill="#e7ecf5" text-anchor="middle">the other</text>
+<text x="450.0" y="80.0" font-size="28" fill="#a3aec6" text-anchor="middle">a loop, not a ladder</text>
+<rect x="890.0" y="480" width="220" height="56" rx="6" fill="#3a3016" stroke="#ffcf6f" stroke-width="4"/>
+<rect x="915.0" y="418" width="170" height="56" rx="6" fill="#3a3016" stroke="#ffcf6f" stroke-width="4"/>
+<rect x="940.0" y="356" width="120" height="56" rx="6" fill="#3a3016" stroke="#ffcf6f" stroke-width="4"/>
+<line x1="760.0" y1="400.0" x2="867.4" y2="400.0" stroke="#ffcf6f" stroke-width="6" stroke-linecap="round"/>
+<polygon points="880.0,400.0 863.7,407.7 863.7,392.3" fill="#ffcf6f"/>
+<text x="1000.0" y="205.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Constructivism</text>
+<text x="1000.0" y="255.0" font-size="30" fill="#e7ecf5" text-anchor="middle">we build what we know</text>
+</svg>

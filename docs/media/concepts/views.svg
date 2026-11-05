@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">One behaviour seen from three views</title>
+<desc id="d">Diagram of one behaviour, checking your phone, at the centre, with an evolutionary, a psychological and a social question pointing at it.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<circle cx="640.0" cy="400.0" r="145" fill="#26304d" stroke="#e7ecf5" stroke-width="5"/>
+<text x="640.0" y="390.0" font-size="38" fill="#e7ecf5" text-anchor="middle" font-weight="700">Checking</text>
+<text x="640.0" y="435.6" font-size="38" fill="#e7ecf5" text-anchor="middle" font-weight="700">your phone</text>
+<rect x="60" y="70" width="400" height="215" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="5"/>
+<text x="260.0" y="120.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Evolutionary biology</text>
+<text x="260.0" y="170.0" font-size="30" fill="#e7ecf5" text-anchor="middle">Why would novelty</text>
+<text x="260.0" y="206.0" font-size="30" fill="#e7ecf5" text-anchor="middle">pull at us at all?</text>
+<line x1="250.0" y1="300.0" x2="492.0" y2="337.2" stroke="#7ee0a8" stroke-width="7" stroke-linecap="round"/>
+<polygon points="510.0,340.0 485.1,347.4 488.5,325.4" fill="#7ee0a8"/>
+<rect x="830" y="70" width="400" height="215" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="5"/>
+<text x="1030.0" y="120.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Psychological</text>
+<text x="1030.0" y="170.0" font-size="30" fill="#e7ecf5" text-anchor="middle">What reward and</text>
+<text x="1030.0" y="206.0" font-size="30" fill="#e7ecf5" text-anchor="middle">habit keep it going?</text>
+<line x1="1020.0" y1="300.0" x2="788.0" y2="337.1" stroke="#6fd3ff" stroke-width="7" stroke-linecap="round"/>
+<polygon points="770.0,340.0 791.5,325.3 795.0,347.3" fill="#6fd3ff"/>
+<rect x="420" y="590" width="440" height="165" rx="12" fill="#2a2148" stroke="#b48cff" stroke-width="5"/>
+<text x="640.0" y="640.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Social</text>
+<text x="640.0" y="690.0" font-size="30" fill="#e7ecf5" text-anchor="middle">Who expects</text>
+<text x="640.0" y="726.0" font-size="30" fill="#e7ecf5" text-anchor="middle">a reply from you?</text>
+<line x1="640.0" y1="586.0" x2="640.0" y2="570.2" stroke="#b48cff" stroke-width="7" stroke-linecap="round"/>
+<polygon points="640.0,552.0 651.1,575.5 628.9,575.5" fill="#b48cff"/>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">illustrative questions</text>
+</svg>

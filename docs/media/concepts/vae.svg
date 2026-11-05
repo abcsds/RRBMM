@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Encoder, latent space and decoder</title>
+<desc id="d">Schematic autoencoder from data through an encoder to a latent point cloud and a decoder.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="40" y="330" width="150" height="140" rx="12" fill="#161d33" stroke="#a3aec6" stroke-width="3"/>
+<text x="115.0" y="411.2" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">Data</text>
+<line x1="195.0" y1="400.0" x2="222.4" y2="400.0" stroke="#a3aec6" stroke-width="4" stroke-linecap="round"/>
+<polygon points="235.0,400.0 218.7,407.7 218.7,392.3" fill="#a3aec6"/>
+<polygon points="240.0,290.0 420.0,355.0 420.0,445.0 240.0,510.0" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="322.0" y="411.0" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">Encoder</text>
+<line x1="425.0" y1="400.0" x2="457.4" y2="400.0" stroke="#a3aec6" stroke-width="4" stroke-linecap="round"/>
+<polygon points="470.0,400.0 453.7,407.7 453.7,392.3" fill="#a3aec6"/>
+<circle cx="640.0" cy="400.0" r="165" fill="#2a2412" stroke="#ffcf6f" stroke-width="5"/>
+<circle cx="583.9" cy="357.3" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="584.6" cy="337.4" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="567.7" cy="339.9" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="616.7" cy="355.2" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="614.9" cy="351.0" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="599.5" cy="349.4" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="550.0" cy="365.5" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="602.2" cy="357.0" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="549.4" cy="303.1" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="568.6" cy="333.8" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="597.3" cy="343.9" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="602.5" cy="329.6" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="597.4" cy="354.5" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="574.1" cy="386.2" r="6" fill="#6fd3ff" stroke="#6fd3ff" stroke-width="1"/>
+<circle cx="708.4" cy="393.7" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="680.1" cy="347.3" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="686.7" cy="362.4" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="710.2" cy="371.0" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="684.3" cy="342.0" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="682.5" cy="394.3" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="675.6" cy="370.9" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="705.2" cy="329.2" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="696.2" cy="396.3" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="646.7" cy="357.3" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="692.5" cy="345.4" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="706.9" cy="363.5" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="659.8" cy="384.9" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="711.1" cy="387.7" r="6" fill="#b48cff" stroke="#b48cff" stroke-width="1"/>
+<circle cx="669.6" cy="468.7" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="637.9" cy="428.8" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="649.8" cy="445.3" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="624.1" cy="429.6" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="611.8" cy="447.3" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="665.9" cy="411.2" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="600.0" cy="465.7" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="669.6" cy="473.9" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="589.4" cy="399.6" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="643.6" cy="442.3" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="608.1" cy="483.5" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="661.4" cy="463.8" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="640.9" cy="470.4" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<circle cx="673.3" cy="474.9" r="6" fill="#7ee0a8" stroke="#7ee0a8" stroke-width="1"/>
+<text x="640.0" y="200.0" font-size="36" fill="#ffcf6f" text-anchor="middle" font-weight="700">latent variable</text>
+<line x1="810.0" y1="400.0" x2="842.4" y2="400.0" stroke="#a3aec6" stroke-width="4" stroke-linecap="round"/>
+<polygon points="855.0,400.0 838.7,407.7 838.7,392.3" fill="#a3aec6"/>
+<polygon points="860.0,355.0 1040.0,290.0 1040.0,510.0 860.0,445.0" fill="#1b2f46" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="948.0" y="411.0" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">Decoder</text>
+<line x1="1045.0" y1="400.0" x2="1072.4" y2="400.0" stroke="#a3aec6" stroke-width="4" stroke-linecap="round"/>
+<polygon points="1085.0,400.0 1068.7,407.7 1068.7,392.3" fill="#a3aec6"/>
+<rect x="1090" y="330" width="150" height="140" rx="12" fill="#161d33" stroke="#a3aec6" stroke-width="3"/>
+<text x="1165.0" y="393.5" font-size="26" fill="#e7ecf5" text-anchor="middle" font-weight="700">Recon-</text>
+<text x="1165.0" y="424.7" font-size="26" fill="#e7ecf5" text-anchor="middle" font-weight="700">struction</text>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic. VAE: Kingma and Welling 2013.</text>
+</svg>

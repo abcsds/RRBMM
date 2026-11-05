@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Hardware and software layers with three cracks</title>
+<desc id="d">Two-layer machine diagram of software on hardware, with three labelled cracks where the metaphor breaks: learning rewrites the machine, computing has a metabolic price, and the system runs its own body.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="120" y="50" width="1040" height="150" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<rect x="120" y="225" width="1040" height="150" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="445.0" y="142.0" font-size="50" fill="#e7ecf5" text-anchor="middle" font-weight="700">Software</text>
+<text x="445.0" y="317.0" font-size="50" fill="#e7ecf5" text-anchor="middle" font-weight="700">Hardware</text>
+<path d="M264.0 40.0 L236.0 62.0 L264.0 84.0 L236.0 106.0 L264.0 128.0 L236.0 150.0 L264.0 172.0 L236.0 194.0 L264.0 216.0 L236.0 238.0 L264.0 260.0 L236.0 282.0 L264.0 304.0 L236.0 326.0 L264.0 348.0 L236.0 370.0 L250.0 385.0" fill="none" stroke="#ffcf6f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="250.0" y1="385.0" x2="250.0" y2="440.0" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+<rect x="60" y="440" width="380" height="230" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="4"/>
+<circle cx="250.0" cy="490.0" r="30" fill="#0b1020" stroke="#ffcf6f" stroke-width="4"/>
+<text x="250.0" y="502.0" font-size="34" fill="#ffcf6f" text-anchor="middle" font-weight="700">1</text>
+<text x="250.0" y="565.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Learning rewrites</text>
+<text x="250.0" y="605.8" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">the machine</text>
+<path d="M654.0 40.0 L626.0 62.0 L654.0 84.0 L626.0 106.0 L654.0 128.0 L626.0 150.0 L654.0 172.0 L626.0 194.0 L654.0 216.0 L626.0 238.0 L654.0 260.0 L626.0 282.0 L654.0 304.0 L626.0 326.0 L654.0 348.0 L626.0 370.0 L640.0 385.0" fill="none" stroke="#ffcf6f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="640.0" y1="385.0" x2="640.0" y2="440.0" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+<rect x="450" y="440" width="380" height="230" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="4"/>
+<circle cx="640.0" cy="490.0" r="30" fill="#0b1020" stroke="#ffcf6f" stroke-width="4"/>
+<text x="640.0" y="502.0" font-size="34" fill="#ffcf6f" text-anchor="middle" font-weight="700">2</text>
+<text x="640.0" y="565.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Computing has a</text>
+<text x="640.0" y="605.8" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">metabolic price</text>
+<path d="M1044.0 40.0 L1016.0 62.0 L1044.0 84.0 L1016.0 106.0 L1044.0 128.0 L1016.0 150.0 L1044.0 172.0 L1016.0 194.0 L1044.0 216.0 L1016.0 238.0 L1044.0 260.0 L1016.0 282.0 L1044.0 304.0 L1016.0 326.0 L1044.0 348.0 L1016.0 370.0 L1030.0 385.0" fill="none" stroke="#ffcf6f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1030.0" y1="385.0" x2="1030.0" y2="440.0" stroke="#ffcf6f" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+<rect x="840" y="440" width="380" height="230" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="4"/>
+<circle cx="1030.0" cy="490.0" r="30" fill="#0b1020" stroke="#ffcf6f" stroke-width="4"/>
+<text x="1030.0" y="502.0" font-size="34" fill="#ffcf6f" text-anchor="middle" font-weight="700">3</text>
+<text x="1030.0" y="565.0" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">It runs</text>
+<text x="1030.0" y="605.8" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">its own body</text>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Schematic, our synthesis. McClelland et al. 1995; Attwell and Laughlin 2001; Sennesh et al. 2022.</text>
+</svg>

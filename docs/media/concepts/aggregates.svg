@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Reflective and formative measurement models</title>
+<desc id="d">Path diagrams: on the left a reflective construct whose arrows point out to its indicators, on the right a formative construct whose indicators point in to it.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<text x="330.0" y="70.0" font-size="46" fill="#6fd3ff" text-anchor="middle" font-weight="700">Reflective</text>
+<text x="330.0" y="120.0" font-size="32" fill="#e7ecf5" text-anchor="middle">a latent cause</text>
+<ellipse cx="330" cy="270" rx="185" ry="90" fill="#1b2f46" stroke="#6fd3ff" stroke-width="5"/>
+<text x="330.0" y="278.0" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">Extraversion</text>
+<rect x="55" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="3"/>
+<text x="140.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">talkative</text>
+<line x1="244.5" y1="355.0" x2="148.8" y2="511.7" stroke="#6fd3ff" stroke-width="6" stroke-linecap="round"/>
+<polygon points="140.0,526.0 142.6,502.1 160.1,512.8" fill="#6fd3ff"/>
+<rect x="245" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="3"/>
+<text x="330.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">outgoing</text>
+<line x1="330.0" y1="355.0" x2="330.0" y2="509.2" stroke="#6fd3ff" stroke-width="6" stroke-linecap="round"/>
+<polygon points="330.0,526.0 319.7,504.3 340.3,504.3" fill="#6fd3ff"/>
+<rect x="435" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#6fd3ff" stroke-width="3"/>
+<text x="520.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">energetic</text>
+<line x1="415.5" y1="355.0" x2="511.2" y2="511.7" stroke="#6fd3ff" stroke-width="6" stroke-linecap="round"/>
+<polygon points="520.0,526.0 499.9,512.8 517.4,502.1" fill="#6fd3ff"/>
+<text x="950.0" y="70.0" font-size="46" fill="#ffcf6f" text-anchor="middle" font-weight="700">Formative</text>
+<text x="950.0" y="120.0" font-size="32" fill="#e7ecf5" text-anchor="middle">a sum of its parts</text>
+<ellipse cx="950" cy="270" rx="185" ry="90" fill="#2a2412" stroke="#ffcf6f" stroke-width="5"/>
+<text x="950.0" y="261.0" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">Socioeconomic</text>
+<text x="950.0" y="299.4" font-size="32" fill="#e7ecf5" text-anchor="middle" font-weight="700">status</text>
+<rect x="675" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="3"/>
+<text x="760.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">income</text>
+<line x1="760.0" y1="526.0" x2="855.6" y2="373.2" stroke="#ffcf6f" stroke-width="6" stroke-dasharray="14 8" stroke-linecap="round"/>
+<polygon points="864.5,359.0 861.7,382.8 844.3,372.0" fill="#ffcf6f"/>
+<rect x="865" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="3"/>
+<text x="950.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">education</text>
+<line x1="950.0" y1="526.0" x2="950.0" y2="375.8" stroke="#ffcf6f" stroke-width="6" stroke-dasharray="14 8" stroke-linecap="round"/>
+<polygon points="950.0,359.0 960.3,380.7 939.7,380.7" fill="#ffcf6f"/>
+<rect x="1055" y="530" width="170" height="80" rx="12" fill="#161d33" stroke="#ffcf6f" stroke-width="3"/>
+<text x="1140.0" y="579.8" font-size="28" fill="#e7ecf5" text-anchor="middle">job</text>
+<line x1="1140.0" y1="526.0" x2="1044.4" y2="373.2" stroke="#ffcf6f" stroke-width="6" stroke-dasharray="14 8" stroke-linecap="round"/>
+<polygon points="1035.5,359.0 1055.7,372.0 1038.3,382.8" fill="#ffcf6f"/>
+<line x1="640.0" y1="50.0" x2="640.0" y2="660.0" stroke="#a3aec6" stroke-width="2" stroke-dasharray="6 10" stroke-linecap="round"/>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Examples illustrative. Model contrast: Bollen and Lennox 1991.</text>
+</svg>

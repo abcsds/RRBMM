@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Two parallel ladders using a similar framework</title>
+<desc id="d">Two separate ladders side by side, physics to anatomy and information to function, each level emerging from the one below. They share a framework, not a substrate.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<line x1="230.0" y1="600.0" x2="230.0" y2="549.4" stroke="#7ee0a8" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,534.0 239.4,553.9 220.6,553.9" fill="#7ee0a8"/>
+<line x1="230.0" y1="450.0" x2="230.0" y2="399.4" stroke="#7ee0a8" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,384.0 239.4,403.9 220.6,403.9" fill="#7ee0a8"/>
+<line x1="230.0" y1="300.0" x2="230.0" y2="249.4" stroke="#7ee0a8" stroke-width="7" stroke-linecap="round"/>
+<polygon points="230.0,234.0 239.4,253.9 220.6,253.9" fill="#7ee0a8"/>
+<rect x="70" y="602" width="320" height="76" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="230.0" y="651.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Physics</text>
+<rect x="70" y="452" width="320" height="76" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="230.0" y="501.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Chemistry</text>
+<rect x="70" y="302" width="320" height="76" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="230.0" y="351.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Biology</text>
+<rect x="70" y="152" width="320" height="76" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="230.0" y="201.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Anatomy</text>
+<line x1="1050.0" y1="600.0" x2="1050.0" y2="474.4" stroke="#6fd3ff" stroke-width="7" stroke-dasharray="20 12" stroke-linecap="round"/>
+<polygon points="1050.0,459.0 1059.4,478.9 1040.6,478.9" fill="#6fd3ff"/>
+<line x1="1050.0" y1="375.0" x2="1050.0" y2="249.4" stroke="#6fd3ff" stroke-width="7" stroke-dasharray="20 12" stroke-linecap="round"/>
+<polygon points="1050.0,234.0 1059.4,253.9 1040.6,253.9" fill="#6fd3ff"/>
+<rect x="890" y="602" width="320" height="76" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="1050.0" y="651.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Information</text>
+<rect x="890" y="377" width="320" height="76" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="1050.0" y="426.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Representation</text>
+<rect x="890" y="152" width="320" height="76" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="1050.0" y="201.9" font-size="34" fill="#e7ecf5" text-anchor="middle" font-weight="700">Function</text>
+<text x="230.0" y="95.0" font-size="32" fill="#7ee0a8" text-anchor="middle" font-weight="700">properties of matter</text>
+<text x="1050.0" y="95.0" font-size="32" fill="#6fd3ff" text-anchor="middle" font-weight="700">properties of processing</text>
+<text x="640.0" y="345.0" font-size="44" fill="#e7ecf5" text-anchor="middle" font-weight="700">Parallel</text>
+<text x="640.0" y="400.0" font-size="30" fill="#e7ecf5" text-anchor="middle">a similar framework,</text>
+<text x="640.0" y="436.0" font-size="30" fill="#e7ecf5" text-anchor="middle">not the same substrate</text>
+<text x="640.0" y="510.0" font-size="30" fill="#a3aec6" text-anchor="middle">each level emerges</text>
+<text x="640.0" y="546.0" font-size="30" fill="#a3aec6" text-anchor="middle">from the one below</text>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">schematic</text>
+</svg>

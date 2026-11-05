@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">The DIKW pyramid from the last talk</title>
+<desc id="d">Pyramid with data at the base, then information, knowledge and wisdom, and arrows for raw observations, contextualization, experience and reflection.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<polygon points="80.0,700.0 1200.0,700.0 1060.0,542.5 220.0,542.5" fill="#16304f" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="640.0" y="629.2" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">DATA</text>
+<text x="640.0" y="674.5" font-size="26" fill="#e7ecf5" text-anchor="middle">Raw facts, observations</text>
+<polygon points="220.0,542.5 1060.0,542.5 920.0,385.0 360.0,385.0" fill="#1d4770" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="640.0" y="471.8" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">INFORMATION</text>
+<text x="640.0" y="517.0" font-size="26" fill="#e7ecf5" text-anchor="middle">Processed data, patterns</text>
+<polygon points="360.0,385.0 920.0,385.0 780.0,227.5 500.0,227.5" fill="#265f94" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="640.0" y="314.2" font-size="36" fill="#e7ecf5" text-anchor="middle" font-weight="700">KNOWLEDGE</text>
+<text x="640.0" y="359.5" font-size="26" fill="#e7ecf5" text-anchor="middle">Understanding, insights</text>
+<polygon points="500.0,227.5 780.0,227.5 640.0,70.0" fill="#2f78b8" stroke="#6fd3ff" stroke-width="4" stroke-linejoin="round"/>
+<text x="640.0" y="172.5" font-size="26" fill="#e7ecf5" text-anchor="middle" font-weight="700">WISDOM</text>
+<text x="640.0" y="208.3" font-size="24" fill="#e7ecf5" text-anchor="middle">Judgment, values</text>
+<line x1="150.0" y1="747.2" x2="150.0" y2="714.0" stroke="#a3aec6" stroke-width="5" stroke-linecap="round"/>
+<polygon points="150.0,700.0 158.5,718.1 141.5,718.1" fill="#a3aec6"/>
+<text x="170.0" y="765.2" font-size="28" fill="#e7ecf5" text-anchor="start">Raw observations</text>
+<line x1="1130.0" y1="595.0" x2="1130.0" y2="556.5" stroke="#a3aec6" stroke-width="5" stroke-linecap="round"/>
+<polygon points="1130.0,542.5 1138.5,560.6 1121.5,560.6" fill="#a3aec6"/>
+<text x="1240.0" y="505.8" font-size="26" fill="#e7ecf5" text-anchor="end">Contextualization</text>
+<line x1="290.0" y1="437.5" x2="290.0" y2="399.0" stroke="#a3aec6" stroke-width="5" stroke-linecap="round"/>
+<polygon points="290.0,385.0 298.5,403.1 281.5,403.1" fill="#a3aec6"/>
+<text x="290.0" y="369.0" font-size="28" fill="#e7ecf5" text-anchor="middle">Experience</text>
+<line x1="850.0" y1="280.0" x2="850.0" y2="241.5" stroke="#a3aec6" stroke-width="5" stroke-linecap="round"/>
+<polygon points="850.0,227.5 858.5,245.6 841.5,245.6" fill="#a3aec6"/>
+<text x="866.0" y="249.5" font-size="28" fill="#e7ecf5" text-anchor="start">Reflection</text>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">as in the last talk</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Stroop stimuli</title>
+<desc id="d">Colour words printed in clashing colours, to read the ink colour aloud: RED in green, BLUE in yellow, GREEN in red, YELLOW in blue, and so on.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<text x="240.0" y="170.0" font-size="92" fill="#5fe08a" text-anchor="middle" font-weight="700">RED</text>
+<text x="640.0" y="170.0" font-size="92" fill="#ffe066" text-anchor="middle" font-weight="700">BLUE</text>
+<text x="1040.0" y="170.0" font-size="92" fill="#ff6b6b" text-anchor="middle" font-weight="700">GREEN</text>
+<text x="240.0" y="345.0" font-size="92" fill="#7cb0ff" text-anchor="middle" font-weight="700">YELLOW</text>
+<text x="640.0" y="345.0" font-size="92" fill="#ffe066" text-anchor="middle" font-weight="700">RED</text>
+<text x="1040.0" y="345.0" font-size="92" fill="#5fe08a" text-anchor="middle" font-weight="700">BLUE</text>
+<text x="240.0" y="520.0" font-size="92" fill="#ffe066" text-anchor="middle" font-weight="700">GREEN</text>
+<text x="640.0" y="520.0" font-size="92" fill="#ff6b6b" text-anchor="middle" font-weight="700">YELLOW</text>
+<text x="1040.0" y="520.0" font-size="92" fill="#7cb0ff" text-anchor="middle" font-weight="700">RED</text>
+<text x="240.0" y="695.0" font-size="92" fill="#ff6b6b" text-anchor="middle" font-weight="700">BLUE</text>
+<text x="640.0" y="695.0" font-size="92" fill="#7cb0ff" text-anchor="middle" font-weight="700">GREEN</text>
+<text x="1040.0" y="695.0" font-size="92" fill="#5fe08a" text-anchor="middle" font-weight="700">YELLOW</text>
+</svg>

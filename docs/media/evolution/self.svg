@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Telling self-caused from world-caused input, and who says which animals first could</title>
+<desc id="d">Left, a schematic loop: a motor command moves the body, a copy predicts the sensory result, and what the prediction does not cancel is taken as the world. Right, a list of authors and the animals they propose.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="40" y="40" width="220" height="80" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="150.0" y="88.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">Motor command</text>
+<rect x="40" y="230" width="220" height="80" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="3"/>
+<text x="150.0" y="278.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">Body moves</text>
+<rect x="40" y="420" width="220" height="80" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="3"/>
+<text x="150.0" y="468.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">Senses change</text>
+<line x1="150.0" y1="124.0" x2="150.0" y2="213.4" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="150.0,226.0 142.3,209.7 157.7,209.7" fill="#e7ecf5"/>
+<line x1="150.0" y1="314.0" x2="150.0" y2="403.4" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="150.0,416.0 142.3,399.7 157.7,399.7" fill="#e7ecf5"/>
+<rect x="320" y="40" width="220" height="80" rx="12" fill="#2a2140" stroke="#b48cff" stroke-width="3"/>
+<text x="430.0" y="88.4" font-size="24" fill="#e7ecf5" text-anchor="middle" font-weight="700">Copy of command</text>
+<line x1="262.0" y1="80.0" x2="303.4" y2="80.0" stroke="#b48cff" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+<polygon points="316.0,80.0 299.7,87.7 299.7,72.3" fill="#b48cff"/>
+<rect x="320" y="230" width="220" height="80" rx="12" fill="#2a2140" stroke="#b48cff" stroke-width="3"/>
+<text x="430.0" y="278.4" font-size="24" fill="#e7ecf5" text-anchor="middle" font-weight="700">Predicted change</text>
+<line x1="430.0" y1="124.0" x2="430.0" y2="213.4" stroke="#b48cff" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+<polygon points="430.0,226.0 422.3,209.7 437.7,209.7" fill="#b48cff"/>
+<rect x="320" y="420" width="220" height="80" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="3"/>
+<text x="430.0" y="469.8" font-size="28" fill="#e7ecf5" text-anchor="middle" font-weight="700">Compare</text>
+<line x1="430.0" y1="314.0" x2="430.0" y2="403.4" stroke="#b48cff" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+<polygon points="430.0,416.0 422.3,399.7 437.7,399.7" fill="#b48cff"/>
+<line x1="262.0" y1="460.0" x2="303.4" y2="460.0" stroke="#e7ecf5" stroke-width="4" stroke-linecap="round"/>
+<polygon points="316.0,460.0 299.7,467.7 299.7,452.3" fill="#e7ecf5"/>
+<rect x="40" y="570" width="240" height="90" rx="12" fill="#161d33" stroke="#b48cff" stroke-width="3"/>
+<text x="160.0" y="608.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">Predicted:</text>
+<text x="160.0" y="638.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">caused by me</text>
+<rect x="300" y="570" width="240" height="90" rx="12" fill="#161d33" stroke="#7ee0a8" stroke-width="3"/>
+<text x="420.0" y="608.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">Left over:</text>
+<text x="420.0" y="638.8" font-size="25" fill="#e7ecf5" text-anchor="middle" font-weight="700">the world</text>
+<line x1="380.0" y1="504.0" x2="211.9" y2="561.9" stroke="#b48cff" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+<polygon points="200.0,566.0 212.9,553.4 217.9,568.0" fill="#b48cff"/>
+<line x1="440.0" y1="504.0" x2="432.0" y2="553.6" stroke="#7ee0a8" stroke-width="4" stroke-linecap="round"/>
+<polygon points="430.0,566.0 425.0,548.7 440.2,551.2" fill="#7ee0a8"/>
+<text x="40.0" y="702.0" font-size="20" fill="#e7ecf5" text-anchor="start">Corollary discharge: ubiquitous (Crapse, Sommer 2008).</text>
+<text x="40.0" y="732.0" font-size="20" fill="#a3aec6" text-anchor="start">Crickets (Poulet, Hedwig 2006), flies (Kim 2015).</text>
+<text x="590.0" y="58.0" font-size="31" fill="#e7ecf5" text-anchor="start" font-weight="700">Who proposes which animals</text>
+<rect x="590" y="76" width="660" height="112" rx="10" fill="#161d33" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608.0" y="108.0" font-size="25" fill="#e7ecf5" text-anchor="start" font-weight="700">Merker 2005</text>
+<text x="608.0" y="140.0" font-size="21" fill="#a3aec6" text-anchor="start">Mobile animals with centralized brains: consciousness</text>
+<text x="608.0" y="167.0" font-size="21" fill="#a3aec6" text-anchor="start">as a solution to acting amid self-produced motion.</text>
+<rect x="590" y="200" width="660" height="112" rx="10" fill="#161d33" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608.0" y="232.0" font-size="25" fill="#e7ecf5" text-anchor="start" font-weight="700">Merker 2007</text>
+<text x="608.0" y="264.0" font-size="21" fill="#a3aec6" text-anchor="start">Vertebrates: a conserved upper brainstem system,</text>
+<text x="608.0" y="291.0" font-size="21" fill="#a3aec6" text-anchor="start">works without cortex.</text>
+<rect x="590" y="324" width="660" height="112" rx="10" fill="#161d33" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608.0" y="356.0" font-size="25" fill="#e7ecf5" text-anchor="start" font-weight="700">Barron, Klein 2016</text>
+<text x="608.0" y="388.0" font-size="21" fill="#a3aec6" text-anchor="start">Insects and vertebrates, by the Cambrian: an egocentric</text>
+<text x="608.0" y="415.0" font-size="21" fill="#a3aec6" text-anchor="start">simulation that solves reafference. Different structures.</text>
+<rect x="590" y="448" width="660" height="112" rx="10" fill="#161d33" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608.0" y="480.0" font-size="25" fill="#e7ecf5" text-anchor="start" font-weight="700">Feinberg, Mallatt 2013</text>
+<text x="608.0" y="512.0" font-size="21" fill="#a3aec6" text-anchor="start">Earliest vertebrates, by 520 Ma: brains that map the</text>
+<text x="608.0" y="539.0" font-size="21" fill="#a3aec6" text-anchor="start">world and the body&#x27;s interior.</text>
+<rect x="590" y="572" width="660" height="112" rx="10" fill="#161d33" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="608.0" y="604.0" font-size="25" fill="#e7ecf5" text-anchor="start" font-weight="700">Birch, Ginsburg, Jablonka 2020</text>
+<text x="608.0" y="636.0" font-size="21" fill="#a3aec6" text-anchor="start">Self/other is one hallmark: most vertebrates, coleoid</text>
+<text x="608.0" y="663.0" font-size="21" fill="#a3aec6" text-anchor="start">cephalopods, some arthropods. Three origins, a conjecture.</text>
+<text x="590.0" y="716.0" font-size="21" fill="#e7ecf5" text-anchor="start">All theorised. Vertebrate and insect claims are</text>
+<text x="590.0" y="744.0" font-size="21" fill="#e7ecf5" text-anchor="start">deduced from living animals.</text>
+<text x="40.0" y="776.0" font-size="19" fill="#a3aec6" text-anchor="start">Schematic loop. A copy of a command is a mechanism, not yet a self: that step is the theorists&#x27; argument.</text>
+</svg>

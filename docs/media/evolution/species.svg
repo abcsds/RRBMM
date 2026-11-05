@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">Which species show what</title>
+<desc id="d">Table of species by autobiographical memory, episodic-like memory and theory of mind, where autobiographical memory is established only in humans, episodic-like memory is behavioural in apes, rats, dogs, scrub-jays and cuttlefish, and false-belief claims in apes, macaques and dogs are disputed.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<text x="20.0" y="38.0" font-size="24" fill="#a3aec6" text-anchor="start" font-weight="700">Species</text>
+<text x="222.0" y="38.0" font-size="24" fill="#a3aec6" text-anchor="start" font-weight="700">Autobiographical</text>
+<text x="453.0" y="38.0" font-size="24" fill="#a3aec6" text-anchor="start" font-weight="700">Episodic-like</text>
+<text x="829.0" y="38.0" font-size="24" fill="#a3aec6" text-anchor="start" font-weight="700">Theory of mind</text>
+<text x="20.0" y="88.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Human</text>
+<rect x="218" y="52" width="225" height="56" rx="8" fill="#26304d" stroke="#e7ecf5" stroke-width="2"/>
+<text x="230.0" y="76.0" font-size="20" fill="#e7ecf5" text-anchor="start">Yes; emerges with</text>
+<text x="230.0" y="100.0" font-size="20" fill="#e7ecf5" text-anchor="start">language</text>
+<rect x="449" y="52" width="370" height="56" rx="8" fill="#26304d" stroke="#e7ecf5" stroke-width="2"/>
+<text x="461.0" y="76.0" font-size="20" fill="#e7ecf5" text-anchor="start">Episodic proper: conscious</text>
+<text x="461.0" y="100.0" font-size="20" fill="#e7ecf5" text-anchor="start">recollection</text>
+<rect x="825" y="52" width="435" height="56" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="837.0" y="76.0" font-size="20" fill="#e7ecf5" text-anchor="start">Explicit yes; implicit tasks: 1 of 4</text>
+<text x="837.0" y="100.0" font-size="20" fill="#e7ecf5" text-anchor="start">replicated</text>
+<text x="20.0" y="150.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Great apes</text>
+<rect x="449" y="114" width="370" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="461.0" y="138.0" font-size="20" fill="#e7ecf5" text-anchor="start">Behavioural: chose by elapsed</text>
+<text x="461.0" y="162.0" font-size="20" fill="#e7ecf5" text-anchor="start">time</text>
+<rect x="825" y="114" width="435" height="56" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="837.0" y="138.0" font-size="20" fill="#e7ecf5" text-anchor="start">Goals, perception, knowledge; false</text>
+<text x="837.0" y="162.0" font-size="20" fill="#e7ecf5" text-anchor="start">belief disputed</text>
+<text x="20.0" y="212.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Macaque</text>
+<rect x="825" y="176" width="435" height="56" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="837.0" y="212.0" font-size="20" fill="#e7ecf5" text-anchor="start">False-belief gaze bias; disputed</text>
+<text x="20.0" y="274.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Rat</text>
+<rect x="449" y="238" width="370" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="461.0" y="274.0" font-size="20" fill="#e7ecf5" text-anchor="start">What-where-when; ordered replay</text>
+<text x="20.0" y="336.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Dog</text>
+<rect x="449" y="300" width="370" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="461.0" y="336.0" font-size="20" fill="#e7ecf5" text-anchor="start">Recalled own actions after 1 h</text>
+<rect x="825" y="300" width="435" height="56" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="837.0" y="324.0" font-size="20" fill="#e7ecf5" text-anchor="start">False-belief sensitivity, n = 260;</text>
+<text x="837.0" y="348.0" font-size="20" fill="#e7ecf5" text-anchor="start">disputed</text>
+<text x="20.0" y="398.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Scrub-jay</text>
+<rect x="449" y="362" width="370" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="461.0" y="398.0" font-size="20" fill="#e7ecf5" text-anchor="start">The original test: food caches</text>
+<rect x="825" y="362" width="435" height="56" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="837.0" y="398.0" font-size="20" fill="#e7ecf5" text-anchor="start">Remembers who watched: behaviour</text>
+<text x="20.0" y="460.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Raven</text>
+<rect x="825" y="424" width="435" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="837.0" y="460.0" font-size="20" fill="#e7ecf5" text-anchor="start">Guards caches at open peephole</text>
+<text x="20.0" y="522.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Cuttlefish</text>
+<rect x="449" y="486" width="370" height="56" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="461.0" y="510.0" font-size="20" fill="#e7ecf5" text-anchor="start">Foraging; no hippocampus; n = 6</text>
+<text x="461.0" y="534.0" font-size="20" fill="#e7ecf5" text-anchor="start">per age</text>
+<text x="20.0" y="584.0" font-size="26" fill="#e7ecf5" text-anchor="start" font-weight="700">Honeybee</text>
+<rect x="449" y="548" width="370" height="56" rx="8" fill="#1c2238" stroke="#a3aec6" stroke-width="2" stroke-dasharray="3 7"/>
+<text x="461.0" y="584.0" font-size="20" fill="#e7ecf5" text-anchor="start">Trained time-place-colour: weak</text>
+<rect x="20" y="616" width="135" height="36" rx="8" fill="#26304d" stroke="#e7ecf5" stroke-width="2"/>
+<text x="87.5" y="641.0" font-size="21" fill="#e7ecf5" text-anchor="middle">defined</text>
+<rect x="165" y="616" width="145" height="36" rx="8" fill="#143026" stroke="#7ee0a8" stroke-width="2"/>
+<text x="237.5" y="641.0" font-size="21" fill="#e7ecf5" text-anchor="middle">evidence</text>
+<rect x="320" y="616" width="145" height="36" rx="8" fill="#2a2412" stroke="#ffcf6f" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="392.5" y="641.0" font-size="21" fill="#e7ecf5" text-anchor="middle">disputed</text>
+<rect x="475" y="616" width="110" height="36" rx="8" fill="#1c2238" stroke="#a3aec6" stroke-width="2" stroke-dasharray="3 7"/>
+<text x="530.0" y="641.0" font-size="21" fill="#e7ecf5" text-anchor="middle">weak</text>
+<text x="590.0" y="641.0" font-size="24" fill="#e7ecf5" text-anchor="start" font-weight="700">Empty: no evidence found, not absent.</text>
+<text x="20.0" y="684.0" font-size="22" fill="#e7ecf5" text-anchor="start">Episodic-like is behaviour only, not subjective experience. Autobiographical is a different claim.</text>
+<text x="40.0" y="778.0" font-size="24" fill="#a3aec6" text-anchor="start">Tulving 2002; Clayton, Dickinson 1998; Krupenye 2016; Kulke 2018; Horschler 2020; more in notes</text>
+</svg>

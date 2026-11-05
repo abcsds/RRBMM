@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',system-ui,sans-serif">
+<title id="t">The chain from need to behaviour</title>
+<desc id="d">Schematic left-to-right chain of need, emotion, motivation and behaviour, with a feedback arrow from behaviour back to need.</desc>
+<rect width="1280" height="800" fill="#0b1020"/>
+<rect x="25" y="200" width="260" height="200" rx="12" fill="#143026" stroke="#7ee0a8" stroke-width="6"/>
+<text x="155.0" y="314.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Need</text>
+<line x1="289.0" y1="300.0" x2="308.8" y2="300.0" stroke="#e7ecf5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="327.0,300.0 303.5,311.1 303.5,288.9" fill="#e7ecf5"/>
+<rect x="331" y="200" width="260" height="200" rx="12" fill="#2a2148" stroke="#b48cff" stroke-width="6"/>
+<text x="461.0" y="314.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Emotion</text>
+<line x1="595.0" y1="300.0" x2="614.8" y2="300.0" stroke="#e7ecf5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="633.0,300.0 609.5,311.1 609.5,288.9" fill="#e7ecf5"/>
+<rect x="637" y="200" width="260" height="200" rx="12" fill="#2a2412" stroke="#ffcf6f" stroke-width="6"/>
+<text x="767.0" y="314.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Motivation</text>
+<line x1="901.0" y1="300.0" x2="920.8" y2="300.0" stroke="#e7ecf5" stroke-width="8" stroke-linecap="round"/>
+<polygon points="939.0,300.0 915.5,311.1 915.5,288.9" fill="#e7ecf5"/>
+<rect x="943" y="200" width="260" height="200" rx="12" fill="#1b2f46" stroke="#6fd3ff" stroke-width="6"/>
+<text x="1073.0" y="314.0" font-size="40" fill="#e7ecf5" text-anchor="middle" font-weight="700">Behaviour</text>
+<path d="M1073.0 406 C 1073.0 590, 155.0 590, 155.0 430" fill="none" stroke="#e7ecf5" stroke-width="7" stroke-dasharray="18 12" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="155.0,408.0 167.0,433.3 143.0,433.3" fill="#e7ecf5"/>
+<text x="640.0" y="595.0" font-size="34" fill="#e7ecf5" text-anchor="middle">feedback</text>
+<rect x="1050" y="40" width="190" height="58" rx="12" fill="#0b1020" stroke="#ffcf6f" stroke-width="3"/>
+<text x="1145.0" y="78.8" font-size="28" fill="#ffcf6f" text-anchor="middle" font-weight="700">our chain</text>
+<text x="1240.0" y="776.0" font-size="24" fill="#a3aec6" text-anchor="end">schematic</text>
+</svg>
